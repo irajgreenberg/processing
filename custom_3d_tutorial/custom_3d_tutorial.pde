@@ -1,31 +1,47 @@
 // 3D Geom Tutorial in Java mode
-// Construct a properly lit and textured Toroid
+// Construct a lit and textured smooth Toroid
 // texture from: http://img09.deviantart.net/5cd4/i/2009/173/9/f/seamless_wall_texture_06_by_caym.jpg
 
 // Ira Greenberg, 2015
 
-// Data Structures
-// Vertex: (x, y, z), (nx, ny, nz), (r, g, b, a), (u, v)
+/*** Data Structures ***/
+// Vertex: PVector(x, y, z), PVector(nx, ny, nz), RGBA(r, g, b, a), UV(u, v)
 // Index: elem0, elem1, elem2
 // Face: v0, v1, v2
-// Super abstract class Geom3
+// abstract Geom3
+
+/*** Instructions ***/
+// Up arrow for smooth render
+// Down arrow for faceted render (default)
 
 Toroid t;
+
 void setup() {
   size(800, 600, P3D);
-  // PApplet p, PVector pos, RGBA col, float outerRadius, float ringRadius, 
-  // int outerDetail, int ringDetail
-  t = new Toroid(this, new PVector(width/2, height/2), new RGBA(120, 120, 120, 255), 130, 45, 24, 24);
+  t = new Toroid(this, new RGBA(120, 120, 120, 255), "stone.jpg", 130, 45, 18, 18);
   noStroke();
 }
 void draw() {
   background(0);
+  ambientLight(85, 85, 85);
+  emissive(30, 0, 0);
   lightSpecular(255, 255, 255);
-  directionalLight(255, 255, 255, -.25, .25, -1);
+  pointLight(255, 255, 255, -100, -100, 800);
+  pointLight(150, 150, 150, -100, 100, 800);
   specular(255, 255, 255);
-  shininess(8);
-  translate(width/2, height/2);
+  shininess(20);
+  translate(width/2, height/2, 0);
   rotateY(frameCount*PI/720);
   rotateX(-frameCount*PI/720);
   t.display();
+}
+
+void keyPressed() {
+  if (key == CODED) {
+    if (keyCode == UP) {
+      t.setSmooth(true);
+    } else if (keyCode == DOWN) {
+      t.setSmooth(false);
+    }
+  }
 }

@@ -1,7 +1,7 @@
 import processing.core.*;
 
 public class Face {
-  private Vertex v0, v1, v2;
+  public Vertex v0, v1, v2;
 
   public Face() {
   }
@@ -12,30 +12,6 @@ public class Face {
     this.v2 = v2;
   }
   
-  public Vertex getV0() {
-    return v0;
-  }
-  
-  public Vertex getV1() {
-    return v1;
-  }
-  
-  public Vertex getV2() {
-    return v2;
-  }
-
-  public void setV0(Vertex v0) {
-    this.v0 = v0;
-  }
-  
-  public void setV1(Vertex v1) {
-    this.v1 = v1;
-  }
-  
-  public void setV2(Vertex v2) {
-    this.v2 = v2;
-  }
-
   public PVector getNorm() {
 
     // clone v1

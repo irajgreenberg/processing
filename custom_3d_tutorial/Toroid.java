@@ -6,31 +6,26 @@ public class Toroid extends Geom3 {
   private float outerRadius, ringRadius;
   private int outerDetail, ringDetail;
 
-  PImage tex;
-
   public Toroid() {
   }
 
-  public Toroid(PApplet p, PVector pos, RGBA col, float outerRadius, 
+  public Toroid(PApplet p, RGBA col, String tex, float outerRadius, 
     float ringRadius, int outerDetail, int ringDetail) {
 
-    super(p, pos, col);
+    super(p, col, tex);
     this.outerRadius = outerRadius;
     this.ringRadius = ringRadius;
     this.outerDetail = outerDetail;
     this.ringDetail = ringDetail;
 
     _init();
+    
   }
 
   public void _init() {
-
-    tex = p.loadImage("stone.jpg");
-
     verts = new ArrayList<Vertex>();
     inds = new ArrayList<Index>();
     faces = new ArrayList<Face>();
-
 
     // verts
     float theta = 0.0f;
@@ -45,10 +40,10 @@ public class Toroid extends Geom3 {
 
         // vertices
         verts.add(new Vertex(new PVector(px, y, pz), new PVector(), col, new UV((float)((theta+1.0))*.75f, (float)((phi+1.0))*1.35f)));
-        // overlap 1st and last pt to avoid seams
+        // overlap 1st and last pt to avoid seam
         phi += p.TWO_PI/(outerDetail-1);
       }
-      // overlap 1st and last pt to avoid seams
+      // overlap 1st and last pt to avoid seam
       theta += p.TWO_PI/(ringDetail-1);
     }
 
@@ -70,24 +65,10 @@ public class Toroid extends Geom3 {
 
     // faces
     for (Index i : inds) {
-      faces.add(new Face(verts.get(i.getElem0()), verts.get(i.getElem1()), verts.get(i.getElem2())));
+      faces.add(new Face(verts.get(i.elem0), verts.get(i.elem1), verts.get(i.elem2)));
     }
+    
+    calcVertNorms();
   }
-
-  public void display() {
-    p.fill(col.r, col.g, col.b, col.a);
-    p.beginShape(p.TRIANGLES);
-    p.textureMode(p.NORMAL);
-    p.textureWrap(p.REPEAT);
-    p.texture(tex);
-    for (Face f : faces) {
-      // p.normal(f.getNorm().x, f.getNorm().y, f.getNorm().z);
-      p.vertex(f.getV0().pos.x, f.getV0().pos.y, f.getV0().pos.z, f.getV0().uv.v, f.getV0().uv.u);
-      // p.normal(f.getNorm().x, f.getNorm().y, f.getNorm().z);
-      p.vertex(f.getV1().pos.x, f.getV1().pos.y, f.getV1().pos.z, f.getV1().uv.v, f.getV1().uv.u);
-      // p.normal(f.getNorm().x, f.getNorm().y, f.getNorm().z);
-      p.vertex(f.getV2().pos.x, f.getV2().pos.y, f.getV2().pos.z, f.getV2().uv.v, f.getV2().uv.u);
-    }
-    p.endShape();
-  }
+  
 }
