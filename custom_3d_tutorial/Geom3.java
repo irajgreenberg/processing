@@ -48,7 +48,7 @@ public abstract class Geom3 {
   }
 
   public void display() {
-   // p.fill(col.r, col.g, col.b, col.a);
+    p.fill(col.r, col.g, col.b, col.a); // not doing much
     p.beginShape(p.TRIANGLES);
     p.textureMode(p.NORMAL);
     p.textureWrap(p.REPEAT);
