@@ -3,6 +3,7 @@ class Tree {
   PVector pos;
   PVector dim;
   int subDivs;
+
   ArrayList<Node> nodes = new ArrayList<Node>();
   
   Tree(){
