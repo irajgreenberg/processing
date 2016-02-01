@@ -1,4 +1,5 @@
 PVector node;
+  static int NODE_COUNT = 0;
 
 void setup(){
   size(800, 600);
