@@ -28,17 +28,17 @@ public class DataOrb {
     // built-in attraction/detection
     if (!touched) {
       // origin attraction
-      //if (loc.x > 0) {
-      //  loc.x -= spd.x;
-      //} else if (loc.x < 0) {
-      //  loc.x += spd.x;
-      //}
+      if (loc.x > 0) {
+        loc.x -= spd.x;
+      } else if (loc.x < 0) {
+        loc.x += spd.x;
+      }
 
-      //if (loc.y > 0) {
-      //  loc.y -= spd.y;
-      //} else if (loc.y < 0) {
-      //  loc.y += spd.y;
-      //}
+      if (loc.y > 0) {
+        loc.y -= spd.y;
+      } else if (loc.y < 0) {
+        loc.y += spd.y;
+      }
 
       // boundary detection
       if (loc.x > p.width/2-radius) {
@@ -103,9 +103,8 @@ public class DataOrb {
       loc.x = p.mouseX-p.width/2;
       loc.y = p.mouseY-p.height/2;
       return true;
-    } else {
-      touched = false;
-      return  false;
-    }
+    } 
+    touched = false;
+    return  false;
   }
 }

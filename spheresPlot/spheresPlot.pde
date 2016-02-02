@@ -1,4 +1,4 @@
-int orbCount = 400;
+int orbCount = 20;
 DataOrb[] orbs = new DataOrb[orbCount];
 
 void setup() {
@@ -27,41 +27,64 @@ void draw() {
     if (!orb.isTouched()) {
       checkCollisions(orb);
     }
-    orb.move();
+   // orb.move();
     orb.display();
   }
 }
 
 // orb-orb collision
 void checkCollisions(DataOrb orb) {
-  PVector delta = new PVector();
+
   for (int i=0; i<orbs.length; i++) {
-    float span =  orb.getRadius() + orbs[i].getRadius();
-    float d = dist(orb.getLoc().x, orb.getLoc().y, orbs[i].getLoc().x, orbs[i].getLoc().y);
-    if (d < span) {
-      if (d == 0) {
-        // nodes perfectly overlap so use random vector to shift them apart
-        PVector tmp = new PVector(random(-1, 1), random(-1, 1));
-        delta.set(tmp.normalize());
-      } else {
-        delta.set(orb.getLoc());
-        delta.sub(orbs[i].getLoc()); // get collision vector between orbs
-        delta.normalize(); // normalize collision vector
-        //delta.mult(new PVector(orb.getRadius(), orbs[i].getRadius()));
+    if (orb != orbs[i]) {
+      float span =  orb.getRadius() + orbs[i].getRadius();
+      float d = dist(orb.getLoc().x, orb.getLoc().y, orbs[i].getLoc().x, orbs[i].getLoc().y);
+
+      if (d < span) {
+        PVector delta = new PVector();
+        if (d == 0) {
+          //nodes perfectly overlap so use random vector to shift them apart
+          PVector tmp = new PVector(random(-1, 1), random(-1, 1));
+          delta.set(tmp.normalize());
+        } else {
+          delta.set(orb.getLoc());
+          delta.sub(orbs[i].getLoc()); // get collision vector between orbs
+          delta.normalize(); // normalize collision vector
+        }
+        delta.mult(orb.getRadius()+orbs[i].getRadius());
+
+        //  PVector delta = new PVector(.7, .65);
+        delta.normalize();
+
+
+        PVector p1 = orb.getLoc();
+        PVector p2 = orbs[i].getLoc();
+
+        float xs = delta.x*orbs[i].getRadius();
+        float ys = delta.y*orbs[i].getRadius();
+        PVector temp = new PVector();
+        temp.set(p1);
+        p1.x = p2.x + xs;
+        p1.y = p2.y + ys;
+
+        xs = -delta.x*orb.getRadius();
+        ys = -delta.y*orb.getRadius();
+        p2.x = temp.x + xs;
+        p2.y = temp.y + ys;
+        //p1.add(new PVector(delta.x/2, delta.y/2));
+        //p2.sub(new PVector(delta.x/2, delta.y/2));
+
+        //PVector temp = new PVector();
+        //temp.set(p1);
+        //p1.x = p2.x + delta.x*orb.getRadius();
+        //p2.x = temp.x - delta.x*orbs[i].getRadius();
+        // p1.y = p2.y + delta.y*orbs[i].getRadius();
+
+        // p2.x = temp.x - delta.x*orb.getRadius();
+        //p2.y = temp.y - delta.y*orb.getRadius();
+        //p1.x = p2.x + orb.getRadius()+orbs[i].getRadius();
+        //p1.y = p2.y + orb.getRadius()+orbs[i].getRadius();
       }
-      PVector p1 = orb.getLoc();
-      PVector p2 = orbs[i].getLoc();
-      //p1.add(new PVector(delta.x/2, delta.y/2));
-      //p2.sub(new PVector(delta.x/2, delta.y/2));
-      
-      PVector temp = new PVector();
-      temp.set(p1);
-      p1.x = p2.x + delta.x*orb.getRadius();
-      p1.y = p2.y + delta.y*orb.getRadius();
-      
-      p2.x = temp.x + delta.x*orbs[i].getRadius();
-      p2.y = temp.y + delta.y*orbs[i].getRadius();
     }
-    // }
   }
 }
