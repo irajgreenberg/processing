@@ -1,3 +1,8 @@
+/*
+Sphere Plot 001 - Procedural plot
+No data
+*/
+
 int orbCount = 700;
 PVector[] orbs = new PVector[orbCount];
 float[]radii = new float[orbCount];

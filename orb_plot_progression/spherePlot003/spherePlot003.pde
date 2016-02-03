@@ -1,24 +1,57 @@
 /*
 Sphere Plot 002 - 3D Procedural plot
-No data
-*/
+ planets JSON data
+ */
 
-int orbCount = 700;
-PVector[] orbs = new PVector[orbCount];
-float[]radii = new float[orbCount];
-color[]cols = new color[orbCount]; 
+JSONArray planetsData;
+
+PVector[] orbs;
+float[]radii;
+color[]cols;
 
 void setup() {
   size(700, 700, P3D);
   noStroke();
   ortho();
 
-  for (int i=0; i<orbs.length; i++) {
-    // start all orbsin the middle
+  // load JSON data
+  planetsData =loadJSONArray("planets.json");
+  // size arrays
+  int dataSize = planetsData.size();
+  orbs = new PVector[dataSize];
+  radii = new float[dataSize];
+  cols = new color[dataSize]; 
+
+  color planetColor = #ff4433;
+  for (int i=0; i<dataSize; i++) {
+    // start all orbs in the middle
     orbs[i] = new PVector(width/2, height/2);
-    radii[i] = random(4, 15);
-    // color based on radius size
-    cols[i] = color(225-radii[i]*radii[i], abs(sin(i*PI/180)*radii[i]*radii[i]), abs(cos(i*PI/180)*radii[i]+175), 255);
+
+    JSONObject planet = planetsData.getJSONObject(i); 
+
+    //radius based on mass
+    radii[i] = planet.getFloat("mass"); 
+    
+    // color based on planet composition type
+    String planetType = planet.getString("composition");
+    if (planetType.equals("fire")) {
+      planetColor = #ff4433;
+    } else if (planetType.equals("stone")) {
+      planetColor = #337799;
+    } else if (planetType.equals("ice")) {
+      planetColor = #eeeeff;
+    } else if (planetType.equals("water")) {
+      planetColor = #339988;
+    } else if (planetType.equals("lava")) {
+      planetColor = #ff9922;
+    } else if (planetType.equals("gas")) {
+      planetColor = #aa11aa;
+    } else if (planetType.equals("metal")) {
+      planetColor = #999999;
+    } else if (planetType.equals("salt")) {
+      planetColor = #ffffff;
+    }
+    cols[i] = planetColor;
   }
 }
 
