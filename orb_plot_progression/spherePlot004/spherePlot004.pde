@@ -9,6 +9,8 @@ JSONArray planetsData;
 PVector[] orbs;
 float[]radii;
 color[]cols, origCols;
+int[] ids;
+String[] comp;
 
 PFont font;
 
@@ -26,6 +28,8 @@ void setup() {
   radii = new float[dataSize];
   cols = new color[dataSize]; 
   origCols = new color[dataSize]; 
+  ids = new int[dataSize];
+  comp = new String[dataSize];
 
   color planetColor = #ff4433;
   for (int i=0; i<dataSize; i++) {
@@ -37,20 +41,23 @@ void setup() {
     //radius based on mass
     radii[i] = planet.getFloat("mass"); 
 
+    ids[i] = planet.getInt("id");
+
     // color based on planet composition type
-    String planetType = planet.getString("composition");
+    String planetType = comp[i] = planet.getString("composition");
+
     if (planetType.equals("fire")) {
       planetColor = #ff4433;
     } else if (planetType.equals("stone")) {
-      planetColor = #337799;
+      planetColor = #334422;
     } else if (planetType.equals("ice")) {
       planetColor = #eeeeff;
     } else if (planetType.equals("water")) {
-      planetColor = #339988;
+      planetColor = #3399bb;
     } else if (planetType.equals("lava")) {
       planetColor = #ff9922;
     } else if (planetType.equals("gas")) {
-      planetColor = #aa11aa;
+      planetColor = #aa55cc;
     } else if (planetType.equals("metal")) {
       planetColor = #999999;
     } else if (planetType.equals("salt")) {
@@ -70,6 +77,8 @@ void draw() {
   ambientLight(150, 150, 150);
   ambient(90, 90, 90);
 
+  // shift entire form up
+ // translate(0, -20, 0);
   // orb-orb collision
   for (int i=0; i<orbs.length; i++) {
     for (int j=1+1; j<orbs.length; j++) {
@@ -92,6 +101,7 @@ void draw() {
       }
     }
   }
+ 
 
   for (int i=0; i<orbs.length; i++) {
     fill(cols[i]);
@@ -117,12 +127,13 @@ void draw() {
     if (dist(mouseX, mouseY, orbs[i].x, orbs[i].y) < radii[i]) {
       cols[i] = #ffff00;
 
-      pushMatrix();
+      //   pushMatrix();
       fill(85);
       textFont(font, 23);
-      String s = "Planet Composition:" + 45 +", Mass: ";
-      text(s, 20, height-7);
-      popMatrix();
+      String s = "  Planet ID:  " + ids[i] + "       Composition:  " + comp[i] +"       Mass: " + radii[i];
+      float w = textWidth(s);
+      text(s, (width-w)/2, height-7);
+      // popMatrix();
     } else {
       noStroke();
       cols[i] = origCols[i];
