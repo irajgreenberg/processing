@@ -1,3502 +1,4002 @@
 [
   {
-    "composition": "lava",
-    "mass": 4.317659854888916,
+    "composition": "salt",
+    "mass": 11.557991981506348,
     "id": 0
   },
   {
-    "composition": "metal",
-    "mass": 11.883807182312012,
+    "composition": "ice",
+    "mass": 6.856154441833496,
     "id": 1
   },
   {
     "composition": "ice",
-    "mass": 6.447545528411865,
+    "mass": 6.838793754577637,
     "id": 2
   },
   {
-    "composition": "water",
-    "mass": 6.854475498199463,
+    "composition": "salt",
+    "mass": 12.481348037719727,
     "id": 3
   },
   {
-    "composition": "ice",
-    "mass": 12.026050567626953,
+    "composition": "water",
+    "mass": 4.51477575302124,
     "id": 4
   },
   {
-    "composition": "gas",
-    "mass": 11.574586868286133,
+    "composition": "lava",
+    "mass": 9.789888381958008,
     "id": 5
   },
   {
-    "composition": "ice",
-    "mass": 11.12002182006836,
+    "composition": "lava",
+    "mass": 13.58755874633789,
     "id": 6
   },
   {
     "composition": "fire",
-    "mass": 14.0453519821167,
+    "mass": 8.219609260559082,
     "id": 7
   },
   {
-    "composition": "water",
-    "mass": 11.136305809020996,
+    "composition": "fire",
+    "mass": 9.990011215209961,
     "id": 8
   },
   {
-    "composition": "water",
-    "mass": 11.69760513305664,
+    "composition": "lava",
+    "mass": 12.902202606201172,
     "id": 9
   },
   {
     "composition": "fire",
-    "mass": 10.89065170288086,
+    "mass": 6.00196647644043,
     "id": 10
   },
   {
-    "composition": "metal",
-    "mass": 13.51223373413086,
+    "composition": "fire",
+    "mass": 11.621357917785645,
     "id": 11
   },
   {
-    "composition": "stone",
-    "mass": 10.081291198730469,
+    "composition": "fire",
+    "mass": 13.289152145385742,
     "id": 12
   },
   {
-    "composition": "fire",
-    "mass": 4.282715320587158,
+    "composition": "salt",
+    "mass": 14.295941352844238,
     "id": 13
   },
   {
-    "composition": "stone",
-    "mass": 5.385177135467529,
+    "composition": "salt",
+    "mass": 7.058733940124512,
     "id": 14
   },
   {
-    "composition": "metal",
-    "mass": 13.429234504699707,
+    "composition": "gas",
+    "mass": 4.3746795654296875,
     "id": 15
   },
   {
-    "composition": "gas",
-    "mass": 10.902595520019531,
+    "composition": "lava",
+    "mass": 8.795816421508789,
     "id": 16
   },
   {
     "composition": "gas",
-    "mass": 6.8399834632873535,
+    "mass": 10.174457550048828,
     "id": 17
   },
   {
-    "composition": "ice",
-    "mass": 12.987666130065918,
+    "composition": "fire",
+    "mass": 12.638771057128906,
     "id": 18
   },
   {
-    "composition": "gas",
-    "mass": 9.309715270996094,
+    "composition": "water",
+    "mass": 4.795957565307617,
     "id": 19
   },
   {
-    "composition": "water",
-    "mass": 9.125137329101562,
+    "composition": "stone",
+    "mass": 12.767740249633789,
     "id": 20
   },
   {
     "composition": "lava",
-    "mass": 7.986014366149902,
+    "mass": 11.869500160217285,
     "id": 21
   },
   {
-    "composition": "ice",
-    "mass": 12.313861846923828,
+    "composition": "fire",
+    "mass": 6.180347919464111,
     "id": 22
   },
   {
-    "composition": "lava",
-    "mass": 6.272430896759033,
+    "composition": "stone",
+    "mass": 7.316487789154053,
     "id": 23
   },
   {
-    "composition": "salt",
-    "mass": 9.370125770568848,
+    "composition": "metal",
+    "mass": 10.480562210083008,
     "id": 24
   },
   {
-    "composition": "gas",
-    "mass": 11.810921669006348,
+    "composition": "metal",
+    "mass": 10.838126182556152,
     "id": 25
   },
   {
-    "composition": "fire",
-    "mass": 6.5045366287231445,
+    "composition": "metal",
+    "mass": 9.739757537841797,
     "id": 26
   },
   {
-    "composition": "ice",
-    "mass": 7.6449995040893555,
+    "composition": "water",
+    "mass": 4.9776387214660645,
     "id": 27
   },
   {
-    "composition": "water",
-    "mass": 12.8987455368042,
+    "composition": "fire",
+    "mass": 10.141281127929688,
     "id": 28
   },
   {
-    "composition": "stone",
-    "mass": 11.604814529418945,
+    "composition": "salt",
+    "mass": 13.844154357910156,
     "id": 29
   },
   {
-    "composition": "metal",
-    "mass": 7.616658687591553,
+    "composition": "ice",
+    "mass": 11.888666152954102,
     "id": 30
   },
   {
-    "composition": "gas",
-    "mass": 13.245707511901855,
+    "composition": "metal",
+    "mass": 10.669142723083496,
     "id": 31
   },
   {
-    "composition": "fire",
-    "mass": 13.941995620727539,
+    "composition": "stone",
+    "mass": 14.25007438659668,
     "id": 32
   },
   {
-    "composition": "ice",
-    "mass": 14.68668270111084,
+    "composition": "gas",
+    "mass": 12.00749397277832,
     "id": 33
   },
   {
-    "composition": "stone",
-    "mass": 6.912644863128662,
+    "composition": "ice",
+    "mass": 5.493508815765381,
     "id": 34
   },
   {
     "composition": "gas",
-    "mass": 12.0430908203125,
+    "mass": 6.047262191772461,
     "id": 35
   },
   {
-    "composition": "fire",
-    "mass": 5.80394983291626,
+    "composition": "ice",
+    "mass": 10.814730644226074,
     "id": 36
   },
   {
-    "composition": "gas",
-    "mass": 10.421337127685547,
+    "composition": "metal",
+    "mass": 13.091198921203613,
     "id": 37
   },
   {
-    "composition": "lava",
-    "mass": 11.339157104492188,
+    "composition": "fire",
+    "mass": 12.007296562194824,
     "id": 38
   },
   {
-    "composition": "gas",
-    "mass": 6.969882965087891,
+    "composition": "ice",
+    "mass": 14.990449905395508,
     "id": 39
   },
   {
-    "composition": "ice",
-    "mass": 10.326319694519043,
+    "composition": "water",
+    "mass": 9.016315460205078,
     "id": 40
   },
   {
-    "composition": "lava",
-    "mass": 13.071619033813477,
+    "composition": "ice",
+    "mass": 11.301336288452148,
     "id": 41
   },
   {
-    "composition": "metal",
-    "mass": 8.946890830993652,
+    "composition": "stone",
+    "mass": 7.457854747772217,
     "id": 42
   },
   {
-    "composition": "water",
-    "mass": 10.463785171508789,
+    "composition": "lava",
+    "mass": 9.089813232421875,
     "id": 43
   },
   {
-    "composition": "stone",
-    "mass": 7.371489524841309,
+    "composition": "metal",
+    "mass": 4.587739944458008,
     "id": 44
   },
   {
-    "composition": "gas",
-    "mass": 7.913296699523926,
+    "composition": "metal",
+    "mass": 4.998842239379883,
     "id": 45
   },
   {
-    "composition": "salt",
-    "mass": 13.431488037109375,
+    "composition": "fire",
+    "mass": 10.83903694152832,
     "id": 46
   },
   {
-    "composition": "water",
-    "mass": 5.822208404541016,
+    "composition": "salt",
+    "mass": 9.030034065246582,
     "id": 47
   },
   {
-    "composition": "gas",
-    "mass": 14.519325256347656,
+    "composition": "metal",
+    "mass": 10.29877758026123,
     "id": 48
   },
   {
-    "composition": "water",
-    "mass": 4.039173126220703,
+    "composition": "lava",
+    "mass": 9.065256118774414,
     "id": 49
   },
   {
-    "composition": "stone",
-    "mass": 8.373194694519043,
+    "composition": "metal",
+    "mass": 5.102612495422363,
     "id": 50
   },
   {
-    "composition": "gas",
-    "mass": 4.691507339477539,
+    "composition": "lava",
+    "mass": 6.793605804443359,
     "id": 51
   },
   {
     "composition": "gas",
-    "mass": 10.179866790771484,
+    "mass": 13.541616439819336,
     "id": 52
   },
   {
-    "composition": "ice",
-    "mass": 9.49663257598877,
+    "composition": "lava",
+    "mass": 6.225767135620117,
     "id": 53
   },
   {
-    "composition": "ice",
-    "mass": 7.1190643310546875,
+    "composition": "lava",
+    "mass": 12.408530235290527,
     "id": 54
   },
   {
-    "composition": "salt",
-    "mass": 5.963374137878418,
+    "composition": "fire",
+    "mass": 4.4170918464660645,
     "id": 55
   },
   {
-    "composition": "ice",
-    "mass": 6.799610137939453,
+    "composition": "lava",
+    "mass": 4.0804123878479,
     "id": 56
   },
   {
-    "composition": "lava",
-    "mass": 12.8394193649292,
+    "composition": "fire",
+    "mass": 6.41330623626709,
     "id": 57
   },
   {
-    "composition": "water",
-    "mass": 13.586502075195312,
+    "composition": "salt",
+    "mass": 8.719942092895508,
     "id": 58
   },
   {
-    "composition": "salt",
-    "mass": 9.02196979522705,
+    "composition": "ice",
+    "mass": 4.5427937507629395,
     "id": 59
   },
   {
-    "composition": "water",
-    "mass": 10.78341293334961,
+    "composition": "metal",
+    "mass": 5.566362380981445,
     "id": 60
   },
   {
-    "composition": "stone",
-    "mass": 11.829700469970703,
+    "composition": "gas",
+    "mass": 10.256388664245605,
     "id": 61
   },
   {
-    "composition": "salt",
-    "mass": 7.570624351501465,
+    "composition": "fire",
+    "mass": 12.226842880249023,
     "id": 62
   },
   {
-    "composition": "salt",
-    "mass": 11.675017356872559,
+    "composition": "ice",
+    "mass": 11.2426118850708,
     "id": 63
   },
   {
-    "composition": "water",
-    "mass": 8.167166709899902,
+    "composition": "fire",
+    "mass": 4.42667293548584,
     "id": 64
   },
   {
-    "composition": "lava",
-    "mass": 5.90048885345459,
+    "composition": "salt",
+    "mass": 10.991228103637695,
     "id": 65
   },
   {
-    "composition": "metal",
-    "mass": 8.410390853881836,
+    "composition": "ice",
+    "mass": 8.448405265808105,
     "id": 66
   },
   {
-    "composition": "lava",
-    "mass": 10.210474014282227,
+    "composition": "salt",
+    "mass": 5.543009281158447,
     "id": 67
   },
   {
-    "composition": "metal",
-    "mass": 4.9581685066223145,
+    "composition": "fire",
+    "mass": 8.21137809753418,
     "id": 68
   },
   {
-    "composition": "lava",
-    "mass": 5.08126974105835,
+    "composition": "fire",
+    "mass": 8.535158157348633,
     "id": 69
   },
   {
-    "composition": "gas",
-    "mass": 13.109673500061035,
+    "composition": "metal",
+    "mass": 11.199028015136719,
     "id": 70
   },
   {
-    "composition": "gas",
-    "mass": 8.847548484802246,
+    "composition": "fire",
+    "mass": 9.750909805297852,
     "id": 71
   },
   {
-    "composition": "stone",
-    "mass": 12.410768508911133,
+    "composition": "metal",
+    "mass": 5.426283836364746,
     "id": 72
   },
   {
-    "composition": "salt",
-    "mass": 9.401222229003906,
+    "composition": "metal",
+    "mass": 10.113643646240234,
     "id": 73
   },
   {
-    "composition": "stone",
-    "mass": 6.219368934631348,
+    "composition": "gas",
+    "mass": 5.906834125518799,
     "id": 74
   },
   {
-    "composition": "gas",
-    "mass": 4.396729946136475,
+    "composition": "metal",
+    "mass": 11.0700044631958,
     "id": 75
   },
   {
-    "composition": "fire",
-    "mass": 8.324163436889648,
+    "composition": "metal",
+    "mass": 12.293437004089355,
     "id": 76
   },
   {
-    "composition": "stone",
-    "mass": 8.314664840698242,
+    "composition": "gas",
+    "mass": 10.707239151000977,
     "id": 77
   },
   {
-    "composition": "salt",
-    "mass": 11.965413093566895,
+    "composition": "ice",
+    "mass": 13.045820236206055,
     "id": 78
   },
   {
-    "composition": "metal",
-    "mass": 4.20815372467041,
+    "composition": "ice",
+    "mass": 9.10532283782959,
     "id": 79
   },
   {
-    "composition": "water",
-    "mass": 6.737299919128418,
+    "composition": "metal",
+    "mass": 6.762310981750488,
     "id": 80
   },
   {
-    "composition": "gas",
-    "mass": 9.442401885986328,
+    "composition": "metal",
+    "mass": 5.677561283111572,
     "id": 81
   },
   {
-    "composition": "lava",
-    "mass": 8.254959106445312,
+    "composition": "ice",
+    "mass": 9.684085845947266,
     "id": 82
   },
   {
-    "composition": "salt",
-    "mass": 9.471004486083984,
+    "composition": "ice",
+    "mass": 12.681109428405762,
     "id": 83
   },
   {
-    "composition": "metal",
-    "mass": 12.152704238891602,
+    "composition": "salt",
+    "mass": 5.445512771606445,
     "id": 84
   },
   {
-    "composition": "metal",
-    "mass": 6.890415191650391,
+    "composition": "salt",
+    "mass": 11.242926597595215,
     "id": 85
   },
   {
-    "composition": "fire",
-    "mass": 8.309255599975586,
+    "composition": "lava",
+    "mass": 13.36048412322998,
     "id": 86
   },
   {
-    "composition": "stone",
-    "mass": 13.628819465637207,
+    "composition": "ice",
+    "mass": 11.942899703979492,
     "id": 87
   },
   {
-    "composition": "lava",
-    "mass": 8.646631240844727,
+    "composition": "gas",
+    "mass": 8.972146034240723,
     "id": 88
   },
   {
-    "composition": "fire",
-    "mass": 4.5938801765441895,
+    "composition": "stone",
+    "mass": 10.004534721374512,
     "id": 89
   },
   {
     "composition": "ice",
-    "mass": 11.756664276123047,
+    "mass": 9.68079948425293,
     "id": 90
   },
   {
-    "composition": "gas",
-    "mass": 9.096470832824707,
+    "composition": "metal",
+    "mass": 10.979372024536133,
     "id": 91
   },
   {
     "composition": "stone",
-    "mass": 6.917239189147949,
+    "mass": 5.54005241394043,
     "id": 92
   },
   {
-    "composition": "fire",
-    "mass": 4.539720058441162,
+    "composition": "gas",
+    "mass": 6.473125457763672,
     "id": 93
   },
   {
-    "composition": "lava",
-    "mass": 11.07301139831543,
+    "composition": "metal",
+    "mass": 13.17198371887207,
     "id": 94
   },
   {
-    "composition": "water",
-    "mass": 6.6042094230651855,
+    "composition": "lava",
+    "mass": 14.182943344116211,
     "id": 95
   },
   {
-    "composition": "metal",
-    "mass": 5.4856367111206055,
+    "composition": "lava",
+    "mass": 9.204975128173828,
     "id": 96
   },
   {
-    "composition": "stone",
-    "mass": 12.344992637634277,
+    "composition": "gas",
+    "mass": 14.513806343078613,
     "id": 97
   },
   {
-    "composition": "stone",
-    "mass": 7.278903961181641,
+    "composition": "metal",
+    "mass": 14.049221992492676,
     "id": 98
   },
   {
-    "composition": "ice",
-    "mass": 7.352592468261719,
+    "composition": "fire",
+    "mass": 10.270208358764648,
     "id": 99
   },
   {
-    "composition": "gas",
-    "mass": 10.896416664123535,
+    "composition": "stone",
+    "mass": 10.670302391052246,
     "id": 100
   },
   {
     "composition": "salt",
-    "mass": 9.51112174987793,
+    "mass": 14.813252449035645,
     "id": 101
   },
   {
-    "composition": "gas",
-    "mass": 8.794853210449219,
+    "composition": "metal",
+    "mass": 4.635512828826904,
     "id": 102
   },
   {
     "composition": "ice",
-    "mass": 14.739255905151367,
+    "mass": 7.3042402267456055,
     "id": 103
   },
   {
-    "composition": "water",
-    "mass": 4.864941596984863,
+    "composition": "gas",
+    "mass": 9.035351753234863,
     "id": 104
   },
   {
-    "composition": "stone",
-    "mass": 9.735555648803711,
+    "composition": "water",
+    "mass": 11.878795623779297,
     "id": 105
   },
   {
-    "composition": "salt",
-    "mass": 6.315028667449951,
+    "composition": "fire",
+    "mass": 4.227227687835693,
     "id": 106
   },
   {
     "composition": "fire",
-    "mass": 12.714367866516113,
+    "mass": 7.200417518615723,
     "id": 107
   },
   {
-    "composition": "metal",
-    "mass": 10.887924194335938,
+    "composition": "salt",
+    "mass": 5.123270034790039,
     "id": 108
   },
   {
-    "composition": "salt",
-    "mass": 7.9426751136779785,
+    "composition": "gas",
+    "mass": 11.702890396118164,
     "id": 109
   },
   {
-    "composition": "ice",
-    "mass": 11.489144325256348,
+    "composition": "gas",
+    "mass": 11.221504211425781,
     "id": 110
   },
   {
-    "composition": "fire",
-    "mass": 9.836286544799805,
+    "composition": "ice",
+    "mass": 8.055817604064941,
     "id": 111
   },
   {
-    "composition": "gas",
-    "mass": 10.871993064880371,
+    "composition": "lava",
+    "mass": 4.641445159912109,
     "id": 112
   },
   {
-    "composition": "water",
-    "mass": 11.19481372833252,
+    "composition": "salt",
+    "mass": 12.06926441192627,
     "id": 113
   },
   {
-    "composition": "ice",
-    "mass": 11.099481582641602,
+    "composition": "lava",
+    "mass": 7.312592506408691,
     "id": 114
   },
   {
-    "composition": "ice",
-    "mass": 14.832308769226074,
+    "composition": "fire",
+    "mass": 5.21940279006958,
     "id": 115
   },
   {
-    "composition": "metal",
-    "mass": 10.841694831848145,
+    "composition": "stone",
+    "mass": 9.527912139892578,
     "id": 116
   },
   {
-    "composition": "stone",
-    "mass": 13.36201286315918,
+    "composition": "ice",
+    "mass": 12.538552284240723,
     "id": 117
   },
   {
     "composition": "stone",
-    "mass": 12.286216735839844,
+    "mass": 14.524206161499023,
     "id": 118
   },
   {
-    "composition": "salt",
-    "mass": 6.9215593338012695,
+    "composition": "gas",
+    "mass": 11.316084861755371,
     "id": 119
   },
   {
     "composition": "lava",
-    "mass": 7.764054298400879,
+    "mass": 9.406574249267578,
     "id": 120
   },
   {
-    "composition": "stone",
-    "mass": 5.365687847137451,
+    "composition": "fire",
+    "mass": 6.431509017944336,
     "id": 121
   },
   {
-    "composition": "lava",
-    "mass": 6.209225654602051,
+    "composition": "fire",
+    "mass": 14.773645401000977,
     "id": 122
   },
   {
-    "composition": "gas",
-    "mass": 9.327983856201172,
+    "composition": "ice",
+    "mass": 12.452436447143555,
     "id": 123
   },
   {
-    "composition": "water",
-    "mass": 12.971077919006348,
+    "composition": "fire",
+    "mass": 12.112154006958008,
     "id": 124
   },
   {
-    "composition": "water",
-    "mass": 8.966604232788086,
+    "composition": "ice",
+    "mass": 11.62689208984375,
     "id": 125
   },
   {
-    "composition": "water",
-    "mass": 10.338214874267578,
+    "composition": "salt",
+    "mass": 9.560928344726562,
     "id": 126
   },
   {
-    "composition": "gas",
-    "mass": 14.301020622253418,
+    "composition": "water",
+    "mass": 6.565188407897949,
     "id": 127
   },
   {
-    "composition": "stone",
-    "mass": 13.574708938598633,
+    "composition": "gas",
+    "mass": 7.752607822418213,
     "id": 128
   },
   {
-    "composition": "salt",
-    "mass": 14.441643714904785,
+    "composition": "gas",
+    "mass": 12.7089204788208,
     "id": 129
   },
   {
-    "composition": "salt",
-    "mass": 10.335516929626465,
+    "composition": "stone",
+    "mass": 7.242371559143066,
     "id": 130
   },
   {
-    "composition": "metal",
-    "mass": 7.569961071014404,
+    "composition": "fire",
+    "mass": 5.325819492340088,
     "id": 131
   },
   {
-    "composition": "fire",
-    "mass": 11.650579452514648,
+    "composition": "water",
+    "mass": 5.75233268737793,
     "id": 132
   },
   {
-    "composition": "ice",
-    "mass": 9.086570739746094,
+    "composition": "fire",
+    "mass": 4.935694217681885,
     "id": 133
   },
   {
-    "composition": "lava",
-    "mass": 8.237075805664062,
+    "composition": "salt",
+    "mass": 4.18302583694458,
     "id": 134
   },
   {
-    "composition": "ice",
-    "mass": 5.485143661499023,
+    "composition": "stone",
+    "mass": 14.185434341430664,
     "id": 135
   },
   {
-    "composition": "lava",
-    "mass": 4.817472457885742,
+    "composition": "stone",
+    "mass": 5.763839244842529,
     "id": 136
   },
   {
-    "composition": "metal",
-    "mass": 14.293546676635742,
+    "composition": "stone",
+    "mass": 6.655257701873779,
     "id": 137
   },
   {
-    "composition": "salt",
-    "mass": 9.347122192382812,
+    "composition": "gas",
+    "mass": 6.8860697746276855,
     "id": 138
   },
   {
-    "composition": "metal",
-    "mass": 4.1450042724609375,
+    "composition": "salt",
+    "mass": 8.033777236938477,
     "id": 139
   },
   {
-    "composition": "fire",
-    "mass": 6.158749580383301,
+    "composition": "stone",
+    "mass": 6.2486371994018555,
     "id": 140
   },
   {
-    "composition": "metal",
-    "mass": 6.982420921325684,
+    "composition": "fire",
+    "mass": 8.17001724243164,
     "id": 141
   },
   {
-    "composition": "ice",
-    "mass": 9.940752983093262,
+    "composition": "water",
+    "mass": 11.969752311706543,
     "id": 142
   },
   {
-    "composition": "metal",
-    "mass": 13.572700500488281,
+    "composition": "gas",
+    "mass": 12.554620742797852,
     "id": 143
   },
   {
-    "composition": "ice",
-    "mass": 11.220107078552246,
+    "composition": "water",
+    "mass": 5.909911632537842,
     "id": 144
   },
   {
-    "composition": "gas",
-    "mass": 6.413839817047119,
+    "composition": "ice",
+    "mass": 10.642975807189941,
     "id": 145
   },
   {
-    "composition": "lava",
-    "mass": 12.516069412231445,
+    "composition": "water",
+    "mass": 4.603656768798828,
     "id": 146
   },
   {
-    "composition": "metal",
-    "mass": 9.489371299743652,
+    "composition": "fire",
+    "mass": 11.686933517456055,
     "id": 147
   },
   {
-    "composition": "metal",
-    "mass": 8.07481575012207,
+    "composition": "ice",
+    "mass": 7.010176658630371,
     "id": 148
   },
   {
-    "composition": "lava",
-    "mass": 7.880001068115234,
+    "composition": "salt",
+    "mass": 6.450795650482178,
     "id": 149
   },
   {
-    "composition": "gas",
-    "mass": 14.95376968383789,
+    "composition": "lava",
+    "mass": 13.726040840148926,
     "id": 150
   },
   {
-    "composition": "gas",
-    "mass": 11.433290481567383,
+    "composition": "fire",
+    "mass": 14.647111892700195,
     "id": 151
   },
   {
-    "composition": "gas",
-    "mass": 11.173229217529297,
+    "composition": "water",
+    "mass": 10.92640495300293,
     "id": 152
   },
   {
-    "composition": "lava",
-    "mass": 7.455378532409668,
+    "composition": "gas",
+    "mass": 7.418952941894531,
     "id": 153
   },
   {
-    "composition": "salt",
-    "mass": 14.52702808380127,
+    "composition": "stone",
+    "mass": 8.042708396911621,
     "id": 154
   },
   {
-    "composition": "gas",
-    "mass": 4.895040512084961,
+    "composition": "salt",
+    "mass": 9.732210159301758,
     "id": 155
   },
   {
-    "composition": "fire",
-    "mass": 10.887660026550293,
+    "composition": "water",
+    "mass": 4.083230972290039,
     "id": 156
   },
   {
-    "composition": "gas",
-    "mass": 7.895053863525391,
+    "composition": "salt",
+    "mass": 5.623278617858887,
     "id": 157
   },
   {
-    "composition": "salt",
-    "mass": 7.258207321166992,
+    "composition": "stone",
+    "mass": 8.455329895019531,
     "id": 158
   },
   {
-    "composition": "ice",
-    "mass": 13.778484344482422,
+    "composition": "stone",
+    "mass": 5.6075215339660645,
     "id": 159
   },
   {
-    "composition": "salt",
-    "mass": 9.326801300048828,
+    "composition": "lava",
+    "mass": 10.661663055419922,
     "id": 160
   },
   {
-    "composition": "fire",
-    "mass": 10.892282485961914,
+    "composition": "lava",
+    "mass": 9.909967422485352,
     "id": 161
   },
   {
-    "composition": "lava",
-    "mass": 11.641427040100098,
+    "composition": "water",
+    "mass": 8.183340072631836,
     "id": 162
   },
   {
-    "composition": "metal",
-    "mass": 9.855731964111328,
+    "composition": "fire",
+    "mass": 10.983987808227539,
     "id": 163
   },
   {
-    "composition": "lava",
-    "mass": 13.12573528289795,
+    "composition": "metal",
+    "mass": 8.206308364868164,
     "id": 164
   },
   {
-    "composition": "salt",
-    "mass": 13.249702453613281,
+    "composition": "gas",
+    "mass": 5.972625255584717,
     "id": 165
   },
   {
-    "composition": "gas",
-    "mass": 6.241207122802734,
+    "composition": "salt",
+    "mass": 13.428513526916504,
     "id": 166
   },
   {
     "composition": "lava",
-    "mass": 14.961421012878418,
+    "mass": 5.5118231773376465,
     "id": 167
   },
   {
-    "composition": "salt",
-    "mass": 9.518117904663086,
+    "composition": "metal",
+    "mass": 7.448474407196045,
     "id": 168
   },
   {
-    "composition": "ice",
-    "mass": 11.080141067504883,
+    "composition": "water",
+    "mass": 4.730251789093018,
     "id": 169
   },
   {
-    "composition": "water",
-    "mass": 14.137367248535156,
+    "composition": "gas",
+    "mass": 5.985004425048828,
     "id": 170
   },
   {
-    "composition": "metal",
-    "mass": 14.467543601989746,
+    "composition": "stone",
+    "mass": 4.356388092041016,
     "id": 171
   },
   {
-    "composition": "gas",
-    "mass": 13.06650447845459,
+    "composition": "fire",
+    "mass": 7.325583457946777,
     "id": 172
   },
   {
-    "composition": "stone",
-    "mass": 9.933204650878906,
+    "composition": "salt",
+    "mass": 7.874011516571045,
     "id": 173
   },
   {
-    "composition": "metal",
-    "mass": 7.615087032318115,
+    "composition": "fire",
+    "mass": 7.720123767852783,
     "id": 174
   },
   {
-    "composition": "salt",
-    "mass": 6.094703674316406,
+    "composition": "water",
+    "mass": 7.280750274658203,
     "id": 175
   },
   {
-    "composition": "metal",
-    "mass": 5.964846134185791,
+    "composition": "water",
+    "mass": 6.309170246124268,
     "id": 176
   },
   {
-    "composition": "stone",
-    "mass": 6.7429094314575195,
+    "composition": "gas",
+    "mass": 6.793489456176758,
     "id": 177
   },
   {
-    "composition": "stone",
-    "mass": 10.896467208862305,
+    "composition": "salt",
+    "mass": 12.342323303222656,
     "id": 178
   },
   {
     "composition": "fire",
-    "mass": 5.349066734313965,
+    "mass": 6.136500835418701,
     "id": 179
   },
   {
-    "composition": "fire",
-    "mass": 5.834002494812012,
+    "composition": "water",
+    "mass": 10.754322052001953,
     "id": 180
   },
   {
-    "composition": "water",
-    "mass": 5.7093329429626465,
+    "composition": "gas",
+    "mass": 7.654592514038086,
     "id": 181
   },
   {
-    "composition": "metal",
-    "mass": 8.076175689697266,
+    "composition": "lava",
+    "mass": 14.332822799682617,
     "id": 182
   },
   {
-    "composition": "gas",
-    "mass": 9.826440811157227,
+    "composition": "metal",
+    "mass": 4.460319995880127,
     "id": 183
   },
   {
-    "composition": "water",
-    "mass": 8.406760215759277,
+    "composition": "gas",
+    "mass": 9.052766799926758,
     "id": 184
   },
   {
-    "composition": "stone",
-    "mass": 13.663848876953125,
+    "composition": "fire",
+    "mass": 14.181575775146484,
     "id": 185
   },
   {
-    "composition": "water",
-    "mass": 9.758700370788574,
+    "composition": "metal",
+    "mass": 14.346022605895996,
     "id": 186
   },
   {
-    "composition": "fire",
-    "mass": 8.295808792114258,
+    "composition": "stone",
+    "mass": 4.388411045074463,
     "id": 187
   },
   {
-    "composition": "gas",
-    "mass": 5.443117618560791,
+    "composition": "ice",
+    "mass": 11.90987777709961,
     "id": 188
   },
   {
-    "composition": "stone",
-    "mass": 5.122710704803467,
+    "composition": "metal",
+    "mass": 10.694658279418945,
     "id": 189
   },
   {
-    "composition": "salt",
-    "mass": 13.198437690734863,
+    "composition": "gas",
+    "mass": 12.78131103515625,
     "id": 190
   },
   {
-    "composition": "ice",
-    "mass": 7.864267826080322,
+    "composition": "salt",
+    "mass": 7.33432674407959,
     "id": 191
   },
   {
     "composition": "water",
-    "mass": 9.629722595214844,
+    "mass": 10.072723388671875,
     "id": 192
   },
   {
-    "composition": "gas",
-    "mass": 9.107851028442383,
+    "composition": "metal",
+    "mass": 7.172504901885986,
     "id": 193
   },
   {
-    "composition": "lava",
-    "mass": 5.016339302062988,
+    "composition": "ice",
+    "mass": 13.595081329345703,
     "id": 194
   },
   {
-    "composition": "salt",
-    "mass": 7.633777618408203,
+    "composition": "ice",
+    "mass": 13.827873229980469,
     "id": 195
   },
   {
-    "composition": "fire",
-    "mass": 7.099182605743408,
+    "composition": "gas",
+    "mass": 6.311862468719482,
     "id": 196
   },
   {
-    "composition": "water",
-    "mass": 11.90645980834961,
+    "composition": "salt",
+    "mass": 14.545331954956055,
     "id": 197
   },
   {
     "composition": "fire",
-    "mass": 7.808000564575195,
+    "mass": 14.756738662719727,
     "id": 198
   },
   {
-    "composition": "ice",
-    "mass": 13.087198257446289,
+    "composition": "gas",
+    "mass": 14.583651542663574,
     "id": 199
   },
   {
-    "composition": "lava",
-    "mass": 4.555525779724121,
+    "composition": "ice",
+    "mass": 5.403918266296387,
     "id": 200
   },
   {
-    "composition": "salt",
-    "mass": 8.252492904663086,
+    "composition": "fire",
+    "mass": 6.079716205596924,
     "id": 201
   },
   {
-    "composition": "fire",
-    "mass": 12.168088912963867,
+    "composition": "lava",
+    "mass": 14.056182861328125,
     "id": 202
   },
   {
-    "composition": "salt",
-    "mass": 11.987066268920898,
+    "composition": "lava",
+    "mass": 6.257468223571777,
     "id": 203
   },
   {
-    "composition": "gas",
-    "mass": 5.811468124389648,
+    "composition": "water",
+    "mass": 6.275074005126953,
     "id": 204
   },
   {
-    "composition": "fire",
-    "mass": 12.94349479675293,
+    "composition": "ice",
+    "mass": 5.590152740478516,
     "id": 205
   },
   {
-    "composition": "salt",
-    "mass": 13.834671020507812,
+    "composition": "metal",
+    "mass": 11.242719650268555,
     "id": 206
   },
   {
-    "composition": "stone",
-    "mass": 12.835155487060547,
+    "composition": "metal",
+    "mass": 9.457228660583496,
     "id": 207
   },
   {
-    "composition": "ice",
-    "mass": 7.8311872482299805,
+    "composition": "lava",
+    "mass": 7.34743070602417,
     "id": 208
   },
   {
-    "composition": "salt",
-    "mass": 13.655157089233398,
+    "composition": "fire",
+    "mass": 7.305246353149414,
     "id": 209
   },
   {
-    "composition": "ice",
-    "mass": 4.804505348205566,
+    "composition": "lava",
+    "mass": 4.716558933258057,
     "id": 210
   },
   {
-    "composition": "water",
-    "mass": 10.924287796020508,
+    "composition": "salt",
+    "mass": 12.40208625793457,
     "id": 211
   },
   {
     "composition": "stone",
-    "mass": 14.129172325134277,
+    "mass": 7.480788707733154,
     "id": 212
   },
   {
     "composition": "stone",
-    "mass": 10.683810234069824,
+    "mass": 4.5278825759887695,
     "id": 213
   },
   {
     "composition": "water",
-    "mass": 11.386533737182617,
+    "mass": 8.204030990600586,
     "id": 214
   },
   {
     "composition": "salt",
-    "mass": 7.716014862060547,
+    "mass": 8.169510841369629,
     "id": 215
   },
   {
-    "composition": "gas",
-    "mass": 8.601285934448242,
+    "composition": "metal",
+    "mass": 4.721734046936035,
     "id": 216
   },
   {
-    "composition": "ice",
-    "mass": 10.5335693359375,
+    "composition": "lava",
+    "mass": 4.759035587310791,
     "id": 217
   },
   {
-    "composition": "lava",
-    "mass": 9.24580192565918,
+    "composition": "water",
+    "mass": 7.026330947875977,
     "id": 218
   },
   {
     "composition": "fire",
-    "mass": 9.698680877685547,
+    "mass": 11.734590530395508,
     "id": 219
   },
   {
-    "composition": "ice",
-    "mass": 13.55850601196289,
+    "composition": "lava",
+    "mass": 8.35999584197998,
     "id": 220
   },
   {
-    "composition": "gas",
-    "mass": 8.670110702514648,
+    "composition": "stone",
+    "mass": 11.70389175415039,
     "id": 221
   },
   {
-    "composition": "metal",
-    "mass": 7.543729782104492,
+    "composition": "stone",
+    "mass": 7.719113349914551,
     "id": 222
   },
   {
-    "composition": "fire",
-    "mass": 10.02000617980957,
+    "composition": "metal",
+    "mass": 14.989285469055176,
     "id": 223
   },
   {
-    "composition": "metal",
-    "mass": 12.896939277648926,
+    "composition": "lava",
+    "mass": 9.548881530761719,
     "id": 224
   },
   {
     "composition": "fire",
-    "mass": 7.387107849121094,
+    "mass": 9.54671859741211,
     "id": 225
   },
   {
-    "composition": "salt",
-    "mass": 10.303119659423828,
+    "composition": "water",
+    "mass": 6.876422882080078,
     "id": 226
   },
   {
-    "composition": "ice",
-    "mass": 13.046777725219727,
+    "composition": "stone",
+    "mass": 10.631490707397461,
     "id": 227
   },
   {
     "composition": "water",
-    "mass": 7.969461917877197,
+    "mass": 9.972185134887695,
     "id": 228
   },
   {
-    "composition": "ice",
-    "mass": 11.574113845825195,
+    "composition": "fire",
+    "mass": 14.067456245422363,
     "id": 229
   },
   {
-    "composition": "gas",
-    "mass": 12.117500305175781,
+    "composition": "lava",
+    "mass": 14.177431106567383,
     "id": 230
   },
   {
-    "composition": "ice",
-    "mass": 11.581328392028809,
+    "composition": "metal",
+    "mass": 5.234673023223877,
     "id": 231
   },
   {
-    "composition": "ice",
-    "mass": 7.825015068054199,
+    "composition": "metal",
+    "mass": 14.734285354614258,
     "id": 232
   },
   {
-    "composition": "water",
-    "mass": 14.236191749572754,
+    "composition": "ice",
+    "mass": 5.578266143798828,
     "id": 233
   },
   {
-    "composition": "gas",
-    "mass": 6.2843708992004395,
+    "composition": "salt",
+    "mass": 11.608161926269531,
     "id": 234
   },
   {
-    "composition": "gas",
-    "mass": 7.760423183441162,
+    "composition": "metal",
+    "mass": 7.948484420776367,
     "id": 235
   },
   {
-    "composition": "gas",
-    "mass": 9.050853729248047,
+    "composition": "fire",
+    "mass": 14.813263893127441,
     "id": 236
   },
   {
-    "composition": "stone",
-    "mass": 4.895884990692139,
+    "composition": "gas",
+    "mass": 9.282310485839844,
     "id": 237
   },
   {
-    "composition": "ice",
-    "mass": 12.370603561401367,
+    "composition": "stone",
+    "mass": 4.912827491760254,
     "id": 238
   },
   {
-    "composition": "fire",
-    "mass": 10.676801681518555,
+    "composition": "water",
+    "mass": 5.139164924621582,
     "id": 239
   },
   {
     "composition": "water",
-    "mass": 14.491157531738281,
+    "mass": 9.048674583435059,
     "id": 240
   },
   {
     "composition": "gas",
-    "mass": 7.507137298583984,
+    "mass": 12.499791145324707,
     "id": 241
   },
   {
-    "composition": "ice",
-    "mass": 4.115747928619385,
+    "composition": "water",
+    "mass": 13.300646781921387,
     "id": 242
   },
   {
     "composition": "gas",
-    "mass": 7.49702262878418,
+    "mass": 11.855694770812988,
     "id": 243
   },
   {
-    "composition": "water",
-    "mass": 6.622245788574219,
+    "composition": "stone",
+    "mass": 12.736212730407715,
     "id": 244
   },
   {
-    "composition": "salt",
-    "mass": 14.228537559509277,
+    "composition": "fire",
+    "mass": 5.2678117752075195,
     "id": 245
   },
   {
-    "composition": "salt",
-    "mass": 8.44517993927002,
+    "composition": "water",
+    "mass": 5.393931865692139,
     "id": 246
   },
   {
-    "composition": "metal",
-    "mass": 14.301420211791992,
+    "composition": "ice",
+    "mass": 10.303532600402832,
     "id": 247
   },
   {
-    "composition": "gas",
-    "mass": 14.34024429321289,
+    "composition": "water",
+    "mass": 11.470845222473145,
     "id": 248
   },
   {
-    "composition": "lava",
-    "mass": 10.339797973632812,
+    "composition": "metal",
+    "mass": 12.100896835327148,
     "id": 249
   },
   {
-    "composition": "ice",
-    "mass": 12.199979782104492,
+    "composition": "gas",
+    "mass": 5.331979751586914,
     "id": 250
   },
   {
-    "composition": "metal",
-    "mass": 6.042858123779297,
+    "composition": "water",
+    "mass": 10.522465705871582,
     "id": 251
   },
   {
-    "composition": "fire",
-    "mass": 12.36133098602295,
+    "composition": "gas",
+    "mass": 10.918066024780273,
     "id": 252
   },
   {
-    "composition": "metal",
-    "mass": 5.740646839141846,
+    "composition": "ice",
+    "mass": 11.198040008544922,
     "id": 253
   },
   {
-    "composition": "gas",
-    "mass": 8.994180679321289,
+    "composition": "water",
+    "mass": 4.842738628387451,
     "id": 254
   },
   {
-    "composition": "gas",
-    "mass": 11.910638809204102,
+    "composition": "fire",
+    "mass": 4.19845724105835,
     "id": 255
   },
   {
-    "composition": "ice",
-    "mass": 9.347854614257812,
+    "composition": "stone",
+    "mass": 12.699767112731934,
     "id": 256
   },
   {
-    "composition": "metal",
-    "mass": 12.845332145690918,
+    "composition": "salt",
+    "mass": 14.099881172180176,
     "id": 257
   },
   {
-    "composition": "lava",
-    "mass": 14.382440567016602,
+    "composition": "ice",
+    "mass": 14.960453987121582,
     "id": 258
   },
   {
-    "composition": "water",
-    "mass": 6.994306564331055,
+    "composition": "stone",
+    "mass": 10.991541862487793,
     "id": 259
   },
   {
     "composition": "water",
-    "mass": 4.2553791999816895,
+    "mass": 13.556804656982422,
     "id": 260
   },
   {
-    "composition": "ice",
-    "mass": 8.278717994689941,
+    "composition": "water",
+    "mass": 5.736204147338867,
     "id": 261
   },
   {
     "composition": "metal",
-    "mass": 10.262434005737305,
+    "mass": 11.902433395385742,
     "id": 262
   },
   {
-    "composition": "stone",
-    "mass": 7.469237327575684,
+    "composition": "salt",
+    "mass": 10.932727813720703,
     "id": 263
   },
   {
-    "composition": "lava",
-    "mass": 6.246341705322266,
+    "composition": "gas",
+    "mass": 11.394670486450195,
     "id": 264
   },
   {
-    "composition": "metal",
-    "mass": 9.591461181640625,
+    "composition": "ice",
+    "mass": 11.959157943725586,
     "id": 265
   },
   {
     "composition": "gas",
-    "mass": 10.14620590209961,
+    "mass": 7.4218034744262695,
     "id": 266
   },
   {
-    "composition": "stone",
-    "mass": 14.57181167602539,
+    "composition": "salt",
+    "mass": 10.332488059997559,
     "id": 267
   },
   {
-    "composition": "fire",
-    "mass": 8.835336685180664,
+    "composition": "lava",
+    "mass": 13.73177719116211,
     "id": 268
   },
   {
     "composition": "lava",
-    "mass": 4.242057800292969,
+    "mass": 14.031664848327637,
     "id": 269
   },
   {
-    "composition": "water",
-    "mass": 6.6134538650512695,
+    "composition": "gas",
+    "mass": 13.725579261779785,
     "id": 270
   },
   {
-    "composition": "water",
-    "mass": 12.396607398986816,
+    "composition": "ice",
+    "mass": 9.25184440612793,
     "id": 271
   },
   {
-    "composition": "metal",
-    "mass": 14.719103813171387,
+    "composition": "stone",
+    "mass": 5.451684951782227,
     "id": 272
   },
   {
-    "composition": "lava",
-    "mass": 5.342536926269531,
+    "composition": "salt",
+    "mass": 11.1332368850708,
     "id": 273
   },
   {
-    "composition": "metal",
-    "mass": 10.90713882446289,
+    "composition": "stone",
+    "mass": 14.78858757019043,
     "id": 274
   },
   {
-    "composition": "gas",
-    "mass": 5.031450271606445,
+    "composition": "lava",
+    "mass": 7.914186477661133,
     "id": 275
   },
   {
-    "composition": "lava",
-    "mass": 11.001172065734863,
+    "composition": "stone",
+    "mass": 7.611207008361816,
     "id": 276
   },
   {
-    "composition": "water",
-    "mass": 8.13238525390625,
+    "composition": "stone",
+    "mass": 9.756948471069336,
     "id": 277
   },
   {
-    "composition": "metal",
-    "mass": 6.248082160949707,
+    "composition": "gas",
+    "mass": 11.603732109069824,
     "id": 278
   },
   {
-    "composition": "metal",
-    "mass": 14.748311042785645,
+    "composition": "ice",
+    "mass": 10.481866836547852,
     "id": 279
   },
   {
     "composition": "stone",
-    "mass": 9.246654510498047,
+    "mass": 10.375630378723145,
     "id": 280
   },
   {
     "composition": "stone",
-    "mass": 7.831783294677734,
+    "mass": 6.901595592498779,
     "id": 281
   },
   {
-    "composition": "fire",
-    "mass": 6.030108451843262,
+    "composition": "stone",
+    "mass": 9.587820053100586,
     "id": 282
   },
   {
     "composition": "gas",
-    "mass": 10.888936996459961,
+    "mass": 5.386259078979492,
     "id": 283
   },
   {
-    "composition": "ice",
-    "mass": 10.997064590454102,
+    "composition": "lava",
+    "mass": 10.940421104431152,
     "id": 284
   },
   {
-    "composition": "lava",
-    "mass": 6.4305315017700195,
+    "composition": "water",
+    "mass": 10.212075233459473,
     "id": 285
   },
   {
     "composition": "stone",
-    "mass": 6.611059188842773,
+    "mass": 12.009603500366211,
     "id": 286
   },
   {
-    "composition": "stone",
-    "mass": 8.723745346069336,
+    "composition": "salt",
+    "mass": 11.883371353149414,
     "id": 287
   },
   {
-    "composition": "ice",
-    "mass": 5.03808069229126,
+    "composition": "salt",
+    "mass": 14.555566787719727,
     "id": 288
   },
   {
-    "composition": "ice",
-    "mass": 7.093042373657227,
+    "composition": "stone",
+    "mass": 11.68880844116211,
     "id": 289
   },
   {
-    "composition": "water",
-    "mass": 13.937432289123535,
+    "composition": "lava",
+    "mass": 13.922934532165527,
     "id": 290
   },
   {
-    "composition": "salt",
-    "mass": 12.920915603637695,
+    "composition": "water",
+    "mass": 9.70925521850586,
     "id": 291
   },
   {
-    "composition": "salt",
-    "mass": 11.84503173828125,
+    "composition": "fire",
+    "mass": 5.494358539581299,
     "id": 292
   },
   {
-    "composition": "gas",
-    "mass": 7.202574729919434,
+    "composition": "metal",
+    "mass": 9.273558616638184,
     "id": 293
   },
   {
-    "composition": "stone",
-    "mass": 7.731612682342529,
+    "composition": "water",
+    "mass": 8.6728515625,
     "id": 294
   },
   {
-    "composition": "gas",
-    "mass": 6.339764595031738,
+    "composition": "salt",
+    "mass": 12.630335807800293,
     "id": 295
   },
   {
-    "composition": "gas",
-    "mass": 5.231479167938232,
+    "composition": "salt",
+    "mass": 4.002671718597412,
     "id": 296
   },
   {
-    "composition": "water",
-    "mass": 9.62938117980957,
+    "composition": "lava",
+    "mass": 14.524246215820312,
     "id": 297
   },
   {
-    "composition": "ice",
-    "mass": 6.430642127990723,
+    "composition": "salt",
+    "mass": 13.596173286437988,
     "id": 298
   },
   {
-    "composition": "gas",
-    "mass": 8.658371925354004,
+    "composition": "metal",
+    "mass": 13.323454856872559,
     "id": 299
   },
   {
     "composition": "salt",
-    "mass": 9.295572280883789,
+    "mass": 9.927974700927734,
     "id": 300
   },
   {
     "composition": "stone",
-    "mass": 10.587745666503906,
+    "mass": 11.715408325195312,
     "id": 301
   },
   {
-    "composition": "lava",
-    "mass": 12.494165420532227,
+    "composition": "ice",
+    "mass": 5.060589790344238,
     "id": 302
   },
   {
-    "composition": "lava",
-    "mass": 10.860099792480469,
+    "composition": "water",
+    "mass": 7.378809928894043,
     "id": 303
   },
   {
-    "composition": "water",
-    "mass": 8.29697036743164,
+    "composition": "lava",
+    "mass": 4.859060287475586,
     "id": 304
   },
   {
-    "composition": "stone",
-    "mass": 11.445880889892578,
+    "composition": "gas",
+    "mass": 11.043720245361328,
     "id": 305
   },
   {
     "composition": "ice",
-    "mass": 14.096653938293457,
+    "mass": 8.477494239807129,
     "id": 306
   },
   {
-    "composition": "stone",
-    "mass": 12.837018966674805,
+    "composition": "lava",
+    "mass": 5.296115398406982,
     "id": 307
   },
   {
-    "composition": "metal",
-    "mass": 4.103949546813965,
+    "composition": "water",
+    "mass": 10.208124160766602,
     "id": 308
   },
   {
-    "composition": "water",
-    "mass": 11.070448875427246,
+    "composition": "fire",
+    "mass": 6.1794939041137695,
     "id": 309
   },
   {
-    "composition": "ice",
-    "mass": 9.585245132446289,
+    "composition": "fire",
+    "mass": 8.383722305297852,
     "id": 310
   },
   {
     "composition": "salt",
-    "mass": 11.320420265197754,
+    "mass": 7.1402153968811035,
     "id": 311
   },
   {
-    "composition": "gas",
-    "mass": 14.325886726379395,
+    "composition": "stone",
+    "mass": 6.736135005950928,
     "id": 312
   },
   {
-    "composition": "lava",
-    "mass": 5.7239813804626465,
+    "composition": "fire",
+    "mass": 14.185396194458008,
     "id": 313
   },
   {
     "composition": "ice",
-    "mass": 8.419443130493164,
+    "mass": 5.116105079650879,
     "id": 314
   },
   {
-    "composition": "fire",
-    "mass": 12.019495010375977,
+    "composition": "ice",
+    "mass": 4.03702974319458,
     "id": 315
   },
   {
-    "composition": "salt",
-    "mass": 4.190678596496582,
+    "composition": "metal",
+    "mass": 4.560520648956299,
     "id": 316
   },
   {
-    "composition": "gas",
-    "mass": 13.18875503540039,
+    "composition": "salt",
+    "mass": 13.822591781616211,
     "id": 317
   },
   {
-    "composition": "water",
-    "mass": 14.612703323364258,
+    "composition": "lava",
+    "mass": 6.000187873840332,
     "id": 318
   },
   {
     "composition": "fire",
-    "mass": 5.238880157470703,
+    "mass": 7.924110412597656,
     "id": 319
   },
   {
-    "composition": "water",
-    "mass": 4.63970947265625,
+    "composition": "lava",
+    "mass": 6.691051483154297,
     "id": 320
   },
   {
-    "composition": "ice",
-    "mass": 13.664701461791992,
+    "composition": "stone",
+    "mass": 13.48232650756836,
     "id": 321
   },
   {
-    "composition": "metal",
-    "mass": 5.968326091766357,
+    "composition": "gas",
+    "mass": 13.340685844421387,
     "id": 322
   },
   {
-    "composition": "metal",
-    "mass": 8.354223251342773,
+    "composition": "salt",
+    "mass": 5.922220230102539,
     "id": 323
   },
   {
-    "composition": "stone",
-    "mass": 8.994827270507812,
+    "composition": "lava",
+    "mass": 13.615363121032715,
     "id": 324
   },
   {
-    "composition": "fire",
-    "mass": 12.081692695617676,
+    "composition": "lava",
+    "mass": 11.417490005493164,
     "id": 325
   },
   {
-    "composition": "water",
-    "mass": 5.643329620361328,
+    "composition": "gas",
+    "mass": 14.836201667785645,
     "id": 326
   },
   {
-    "composition": "gas",
-    "mass": 4.351996898651123,
+    "composition": "stone",
+    "mass": 6.365277290344238,
     "id": 327
   },
   {
-    "composition": "metal",
-    "mass": 14.902385711669922,
+    "composition": "water",
+    "mass": 9.399909973144531,
     "id": 328
   },
   {
-    "composition": "metal",
-    "mass": 8.77808952331543,
+    "composition": "stone",
+    "mass": 7.603945732116699,
     "id": 329
   },
   {
-    "composition": "salt",
-    "mass": 6.783929824829102,
+    "composition": "ice",
+    "mass": 12.344435691833496,
     "id": 330
   },
   {
-    "composition": "water",
-    "mass": 4.18576717376709,
+    "composition": "salt",
+    "mass": 10.91561508178711,
     "id": 331
   },
   {
-    "composition": "fire",
-    "mass": 4.078723430633545,
+    "composition": "metal",
+    "mass": 8.185234069824219,
     "id": 332
   },
   {
-    "composition": "stone",
-    "mass": 14.027689933776855,
+    "composition": "ice",
+    "mass": 14.435465812683105,
     "id": 333
   },
   {
     "composition": "ice",
-    "mass": 10.154947280883789,
+    "mass": 11.196611404418945,
     "id": 334
   },
   {
-    "composition": "lava",
-    "mass": 13.965699195861816,
+    "composition": "gas",
+    "mass": 10.29995346069336,
     "id": 335
   },
   {
-    "composition": "water",
-    "mass": 6.66956901550293,
+    "composition": "lava",
+    "mass": 8.836247444152832,
     "id": 336
   },
   {
-    "composition": "stone",
-    "mass": 14.646247863769531,
+    "composition": "salt",
+    "mass": 6.54887056350708,
     "id": 337
   },
   {
-    "composition": "lava",
-    "mass": 8.832944869995117,
+    "composition": "fire",
+    "mass": 8.500999450683594,
     "id": 338
   },
   {
-    "composition": "stone",
-    "mass": 12.981535911560059,
+    "composition": "water",
+    "mass": 14.028564453125,
     "id": 339
   },
   {
-    "composition": "metal",
-    "mass": 7.7926530838012695,
+    "composition": "lava",
+    "mass": 6.858841896057129,
     "id": 340
   },
   {
     "composition": "lava",
-    "mass": 9.87651538848877,
+    "mass": 14.387491226196289,
     "id": 341
   },
   {
-    "composition": "salt",
-    "mass": 9.149101257324219,
+    "composition": "stone",
+    "mass": 13.085433006286621,
     "id": 342
   },
   {
-    "composition": "water",
-    "mass": 12.261398315429688,
+    "composition": "lava",
+    "mass": 6.006083965301514,
     "id": 343
   },
   {
-    "composition": "metal",
-    "mass": 4.058431625366211,
+    "composition": "salt",
+    "mass": 12.513439178466797,
     "id": 344
   },
   {
-    "composition": "ice",
-    "mass": 9.937267303466797,
+    "composition": "salt",
+    "mass": 12.64135456085205,
     "id": 345
   },
   {
-    "composition": "fire",
-    "mass": 13.152769088745117,
+    "composition": "water",
+    "mass": 12.907388687133789,
     "id": 346
   },
   {
-    "composition": "lava",
-    "mass": 8.789676666259766,
+    "composition": "ice",
+    "mass": 8.207015991210938,
     "id": 347
   },
   {
-    "composition": "salt",
-    "mass": 5.558157444000244,
+    "composition": "ice",
+    "mass": 4.34422492980957,
     "id": 348
   },
   {
-    "composition": "stone",
-    "mass": 4.027050971984863,
+    "composition": "ice",
+    "mass": 6.451517105102539,
     "id": 349
   },
   {
-    "composition": "ice",
-    "mass": 8.920421600341797,
+    "composition": "stone",
+    "mass": 6.907676696777344,
     "id": 350
   },
   {
-    "composition": "gas",
-    "mass": 13.646913528442383,
+    "composition": "salt",
+    "mass": 11.572395324707031,
     "id": 351
   },
   {
-    "composition": "water",
-    "mass": 7.971590042114258,
+    "composition": "lava",
+    "mass": 7.099597930908203,
     "id": 352
   },
   {
     "composition": "metal",
-    "mass": 14.197427749633789,
+    "mass": 14.23373031616211,
     "id": 353
   },
   {
     "composition": "lava",
-    "mass": 14.057109832763672,
+    "mass": 11.399993896484375,
     "id": 354
   },
   {
-    "composition": "ice",
-    "mass": 4.192996025085449,
+    "composition": "metal",
+    "mass": 13.986221313476562,
     "id": 355
   },
   {
-    "composition": "gas",
-    "mass": 6.078512191772461,
+    "composition": "ice",
+    "mass": 10.244994163513184,
     "id": 356
   },
   {
-    "composition": "lava",
-    "mass": 6.353246688842773,
+    "composition": "ice",
+    "mass": 5.163167953491211,
     "id": 357
   },
   {
-    "composition": "salt",
-    "mass": 6.728760242462158,
+    "composition": "stone",
+    "mass": 7.173559188842773,
     "id": 358
   },
   {
-    "composition": "metal",
-    "mass": 5.992103576660156,
+    "composition": "lava",
+    "mass": 7.611179351806641,
     "id": 359
   },
   {
-    "composition": "ice",
-    "mass": 6.058781147003174,
+    "composition": "salt",
+    "mass": 8.963558197021484,
     "id": 360
   },
   {
-    "composition": "water",
-    "mass": 4.698997497558594,
+    "composition": "ice",
+    "mass": 6.767192840576172,
     "id": 361
   },
   {
-    "composition": "salt",
-    "mass": 4.523671627044678,
+    "composition": "water",
+    "mass": 13.539758682250977,
     "id": 362
   },
   {
-    "composition": "fire",
-    "mass": 9.47376823425293,
+    "composition": "water",
+    "mass": 11.002796173095703,
     "id": 363
   },
   {
-    "composition": "metal",
-    "mass": 5.534982681274414,
+    "composition": "lava",
+    "mass": 7.703215599060059,
     "id": 364
   },
   {
     "composition": "metal",
-    "mass": 7.230602264404297,
+    "mass": 14.697195053100586,
     "id": 365
   },
   {
-    "composition": "ice",
-    "mass": 8.37017822265625,
+    "composition": "fire",
+    "mass": 12.576179504394531,
     "id": 366
   },
   {
-    "composition": "lava",
-    "mass": 5.339054107666016,
+    "composition": "gas",
+    "mass": 12.2795991897583,
     "id": 367
   },
   {
     "composition": "metal",
-    "mass": 14.349853515625,
+    "mass": 4.960558891296387,
     "id": 368
   },
   {
-    "composition": "ice",
-    "mass": 10.370977401733398,
+    "composition": "salt",
+    "mass": 14.59326457977295,
     "id": 369
   },
   {
     "composition": "metal",
-    "mass": 7.634994029998779,
+    "mass": 5.812640190124512,
     "id": 370
   },
   {
-    "composition": "lava",
-    "mass": 13.454252243041992,
+    "composition": "metal",
+    "mass": 12.203981399536133,
     "id": 371
   },
   {
-    "composition": "stone",
-    "mass": 11.57745361328125,
+    "composition": "fire",
+    "mass": 7.092525482177734,
     "id": 372
   },
   {
-    "composition": "lava",
-    "mass": 13.565516471862793,
+    "composition": "fire",
+    "mass": 11.017036437988281,
     "id": 373
   },
   {
     "composition": "gas",
-    "mass": 5.392915725708008,
+    "mass": 9.563772201538086,
     "id": 374
   },
   {
-    "composition": "stone",
-    "mass": 12.426644325256348,
+    "composition": "salt",
+    "mass": 9.324371337890625,
     "id": 375
   },
   {
-    "composition": "stone",
-    "mass": 12.242683410644531,
+    "composition": "gas",
+    "mass": 9.51618766784668,
     "id": 376
   },
   {
-    "composition": "ice",
-    "mass": 5.590142726898193,
+    "composition": "lava",
+    "mass": 12.70827865600586,
     "id": 377
   },
   {
-    "composition": "stone",
-    "mass": 4.693545341491699,
+    "composition": "salt",
+    "mass": 11.041424751281738,
     "id": 378
   },
   {
-    "composition": "gas",
-    "mass": 8.227777481079102,
+    "composition": "lava",
+    "mass": 7.343964099884033,
     "id": 379
   },
   {
-    "composition": "gas",
-    "mass": 6.668031215667725,
+    "composition": "salt",
+    "mass": 9.695066452026367,
     "id": 380
   },
   {
-    "composition": "fire",
-    "mass": 6.479850769042969,
+    "composition": "metal",
+    "mass": 6.919822692871094,
     "id": 381
   },
   {
-    "composition": "lava",
-    "mass": 9.454389572143555,
+    "composition": "water",
+    "mass": 12.277618408203125,
     "id": 382
   },
   {
-    "composition": "metal",
-    "mass": 10.11935806274414,
+    "composition": "gas",
+    "mass": 12.614672660827637,
     "id": 383
   },
   {
-    "composition": "fire",
-    "mass": 9.279600143432617,
+    "composition": "gas",
+    "mass": 4.817209243774414,
     "id": 384
   },
   {
     "composition": "ice",
-    "mass": 10.359712600708008,
+    "mass": 13.303243637084961,
     "id": 385
   },
   {
-    "composition": "water",
-    "mass": 7.382168292999268,
+    "composition": "stone",
+    "mass": 7.755002975463867,
     "id": 386
   },
   {
-    "composition": "lava",
-    "mass": 5.745240211486816,
+    "composition": "metal",
+    "mass": 11.107078552246094,
     "id": 387
   },
   {
-    "composition": "water",
-    "mass": 8.086191177368164,
+    "composition": "salt",
+    "mass": 7.045854091644287,
     "id": 388
   },
   {
-    "composition": "salt",
-    "mass": 14.0530424118042,
+    "composition": "lava",
+    "mass": 9.754169464111328,
     "id": 389
   },
   {
-    "composition": "ice",
-    "mass": 13.065357208251953,
+    "composition": "salt",
+    "mass": 9.47670841217041,
     "id": 390
   },
   {
-    "composition": "water",
-    "mass": 11.580175399780273,
+    "composition": "fire",
+    "mass": 14.378108024597168,
     "id": 391
   },
   {
-    "composition": "ice",
-    "mass": 11.89592170715332,
+    "composition": "stone",
+    "mass": 6.667860984802246,
     "id": 392
   },
   {
     "composition": "ice",
-    "mass": 14.152999877929688,
+    "mass": 12.781408309936523,
     "id": 393
   },
   {
-    "composition": "ice",
-    "mass": 7.090973377227783,
+    "composition": "fire",
+    "mass": 5.011205673217773,
     "id": 394
   },
   {
-    "composition": "ice",
-    "mass": 7.9718451499938965,
+    "composition": "metal",
+    "mass": 13.947749137878418,
     "id": 395
   },
   {
-    "composition": "salt",
-    "mass": 10.654094696044922,
+    "composition": "stone",
+    "mass": 12.378142356872559,
     "id": 396
   },
   {
-    "composition": "stone",
-    "mass": 11.274126052856445,
+    "composition": "ice",
+    "mass": 14.338107109069824,
     "id": 397
   },
   {
-    "composition": "metal",
-    "mass": 12.717305183410645,
+    "composition": "water",
+    "mass": 10.820262908935547,
     "id": 398
   },
   {
     "composition": "metal",
-    "mass": 6.777381420135498,
+    "mass": 7.104586601257324,
     "id": 399
   },
   {
-    "composition": "metal",
-    "mass": 13.074191093444824,
+    "composition": "lava",
+    "mass": 6.320198059082031,
     "id": 400
   },
   {
-    "composition": "lava",
-    "mass": 14.449384689331055,
+    "composition": "salt",
+    "mass": 14.645888328552246,
     "id": 401
   },
   {
-    "composition": "stone",
-    "mass": 10.281756401062012,
+    "composition": "fire",
+    "mass": 9.919269561767578,
     "id": 402
   },
   {
-    "composition": "water",
-    "mass": 5.078948497772217,
+    "composition": "ice",
+    "mass": 10.487014770507812,
     "id": 403
   },
   {
-    "composition": "lava",
-    "mass": 7.990647315979004,
+    "composition": "fire",
+    "mass": 13.35340690612793,
     "id": 404
   },
   {
-    "composition": "salt",
-    "mass": 11.105996131896973,
+    "composition": "fire",
+    "mass": 11.3544921875,
     "id": 405
   },
   {
-    "composition": "gas",
-    "mass": 13.139181137084961,
+    "composition": "fire",
+    "mass": 13.629185676574707,
     "id": 406
   },
   {
-    "composition": "gas",
-    "mass": 9.665145874023438,
+    "composition": "ice",
+    "mass": 7.832951545715332,
     "id": 407
   },
   {
-    "composition": "gas",
-    "mass": 9.587701797485352,
+    "composition": "salt",
+    "mass": 14.337104797363281,
     "id": 408
   },
   {
-    "composition": "gas",
-    "mass": 12.739947319030762,
+    "composition": "metal",
+    "mass": 5.409688949584961,
     "id": 409
   },
   {
-    "composition": "stone",
-    "mass": 8.51105785369873,
+    "composition": "ice",
+    "mass": 12.858061790466309,
     "id": 410
   },
   {
-    "composition": "ice",
-    "mass": 12.885835647583008,
+    "composition": "stone",
+    "mass": 8.055469512939453,
     "id": 411
   },
   {
-    "composition": "salt",
-    "mass": 4.8528923988342285,
+    "composition": "lava",
+    "mass": 13.009525299072266,
     "id": 412
   },
   {
-    "composition": "salt",
-    "mass": 9.314250946044922,
+    "composition": "water",
+    "mass": 5.2512359619140625,
     "id": 413
   },
   {
-    "composition": "stone",
-    "mass": 11.179545402526855,
+    "composition": "salt",
+    "mass": 10.997564315795898,
     "id": 414
   },
   {
-    "composition": "salt",
-    "mass": 4.127715587615967,
+    "composition": "ice",
+    "mass": 5.28519868850708,
     "id": 415
   },
   {
-    "composition": "stone",
-    "mass": 10.266916275024414,
+    "composition": "water",
+    "mass": 6.296545028686523,
     "id": 416
   },
   {
-    "composition": "fire",
-    "mass": 11.530120849609375,
+    "composition": "ice",
+    "mass": 5.430482387542725,
     "id": 417
   },
   {
-    "composition": "fire",
-    "mass": 9.482940673828125,
+    "composition": "salt",
+    "mass": 8.13612174987793,
     "id": 418
   },
   {
-    "composition": "fire",
-    "mass": 9.516283988952637,
+    "composition": "lava",
+    "mass": 8.722477912902832,
     "id": 419
   },
   {
-    "composition": "water",
-    "mass": 12.873351097106934,
+    "composition": "salt",
+    "mass": 9.610748291015625,
     "id": 420
   },
   {
-    "composition": "stone",
-    "mass": 9.462976455688477,
+    "composition": "metal",
+    "mass": 5.42369270324707,
     "id": 421
   },
   {
-    "composition": "lava",
-    "mass": 4.560252666473389,
+    "composition": "water",
+    "mass": 10.875289916992188,
     "id": 422
   },
   {
-    "composition": "stone",
-    "mass": 7.527056694030762,
+    "composition": "ice",
+    "mass": 6.063143253326416,
     "id": 423
   },
   {
-    "composition": "metal",
-    "mass": 12.472370147705078,
+    "composition": "gas",
+    "mass": 12.89565658569336,
     "id": 424
   },
   {
-    "composition": "stone",
-    "mass": 14.61668586730957,
+    "composition": "salt",
+    "mass": 11.322454452514648,
     "id": 425
   },
   {
-    "composition": "stone",
-    "mass": 5.252588272094727,
+    "composition": "metal",
+    "mass": 4.589637756347656,
     "id": 426
   },
   {
-    "composition": "fire",
-    "mass": 7.984747886657715,
+    "composition": "lava",
+    "mass": 4.901495456695557,
     "id": 427
   },
   {
-    "composition": "fire",
-    "mass": 13.751882553100586,
+    "composition": "water",
+    "mass": 10.83306884765625,
     "id": 428
   },
   {
-    "composition": "metal",
-    "mass": 5.229800224304199,
+    "composition": "gas",
+    "mass": 12.206573486328125,
     "id": 429
   },
   {
-    "composition": "salt",
-    "mass": 7.497736930847168,
+    "composition": "lava",
+    "mass": 5.492910385131836,
     "id": 430
   },
   {
-    "composition": "water",
-    "mass": 11.443798065185547,
+    "composition": "ice",
+    "mass": 6.872361660003662,
     "id": 431
   },
   {
-    "composition": "stone",
-    "mass": 14.707640647888184,
+    "composition": "salt",
+    "mass": 5.763282775878906,
     "id": 432
   },
   {
-    "composition": "salt",
-    "mass": 13.666467666625977,
+    "composition": "ice",
+    "mass": 12.347599983215332,
     "id": 433
   },
   {
-    "composition": "stone",
-    "mass": 9.451811790466309,
+    "composition": "gas",
+    "mass": 5.364448070526123,
     "id": 434
   },
   {
-    "composition": "water",
-    "mass": 9.177022933959961,
+    "composition": "gas",
+    "mass": 9.371349334716797,
     "id": 435
   },
   {
     "composition": "salt",
-    "mass": 8.710670471191406,
+    "mass": 4.468559741973877,
     "id": 436
   },
   {
-    "composition": "salt",
-    "mass": 8.94256591796875,
+    "composition": "lava",
+    "mass": 10.95269775390625,
     "id": 437
   },
   {
-    "composition": "ice",
-    "mass": 13.938016891479492,
+    "composition": "fire",
+    "mass": 9.249796867370605,
     "id": 438
   },
   {
-    "composition": "fire",
-    "mass": 12.951314926147461,
+    "composition": "water",
+    "mass": 8.488262176513672,
     "id": 439
   },
   {
     "composition": "gas",
-    "mass": 4.055994033813477,
+    "mass": 14.03952693939209,
     "id": 440
   },
   {
-    "composition": "fire",
-    "mass": 12.874073028564453,
+    "composition": "salt",
+    "mass": 12.93878173828125,
     "id": 441
   },
   {
-    "composition": "metal",
-    "mass": 12.15756607055664,
+    "composition": "ice",
+    "mass": 4.878147602081299,
     "id": 442
   },
   {
-    "composition": "lava",
-    "mass": 11.44021224975586,
+    "composition": "water",
+    "mass": 11.303309440612793,
     "id": 443
   },
   {
-    "composition": "gas",
-    "mass": 11.77092170715332,
+    "composition": "ice",
+    "mass": 8.582300186157227,
     "id": 444
   },
   {
-    "composition": "lava",
-    "mass": 8.989968299865723,
+    "composition": "salt",
+    "mass": 12.225948333740234,
     "id": 445
   },
   {
     "composition": "metal",
-    "mass": 5.90149450302124,
+    "mass": 10.936721801757812,
     "id": 446
   },
   {
-    "composition": "salt",
-    "mass": 11.512805938720703,
+    "composition": "metal",
+    "mass": 13.929129600524902,
     "id": 447
   },
   {
     "composition": "fire",
-    "mass": 13.874295234680176,
+    "mass": 7.530939102172852,
     "id": 448
   },
   {
-    "composition": "metal",
-    "mass": 14.22601318359375,
+    "composition": "salt",
+    "mass": 7.256912708282471,
     "id": 449
   },
   {
-    "composition": "fire",
-    "mass": 11.774560928344727,
+    "composition": "lava",
+    "mass": 9.708410263061523,
     "id": 450
   },
   {
-    "composition": "lava",
-    "mass": 13.74686336517334,
+    "composition": "fire",
+    "mass": 5.633810997009277,
     "id": 451
   },
   {
-    "composition": "ice",
-    "mass": 12.15988826751709,
+    "composition": "metal",
+    "mass": 7.805459022521973,
     "id": 452
   },
   {
-    "composition": "stone",
-    "mass": 5.508493423461914,
+    "composition": "gas",
+    "mass": 13.885767936706543,
     "id": 453
   },
   {
-    "composition": "stone",
-    "mass": 8.183652877807617,
+    "composition": "ice",
+    "mass": 7.913947105407715,
     "id": 454
   },
   {
-    "composition": "stone",
-    "mass": 14.34118366241455,
+    "composition": "water",
+    "mass": 11.050976753234863,
     "id": 455
   },
   {
-    "composition": "ice",
-    "mass": 8.927770614624023,
+    "composition": "lava",
+    "mass": 8.999907493591309,
     "id": 456
   },
   {
     "composition": "stone",
-    "mass": 9.648550987243652,
+    "mass": 8.434598922729492,
     "id": 457
   },
   {
-    "composition": "salt",
-    "mass": 11.053067207336426,
+    "composition": "water",
+    "mass": 4.903611183166504,
     "id": 458
   },
   {
     "composition": "stone",
-    "mass": 7.1480937004089355,
+    "mass": 14.872654914855957,
     "id": 459
   },
   {
-    "composition": "salt",
-    "mass": 10.906767845153809,
+    "composition": "water",
+    "mass": 14.19815731048584,
     "id": 460
   },
   {
     "composition": "metal",
-    "mass": 12.498013496398926,
+    "mass": 5.5905351638793945,
     "id": 461
   },
   {
-    "composition": "ice",
-    "mass": 6.407745361328125,
+    "composition": "metal",
+    "mass": 6.615900039672852,
     "id": 462
   },
   {
-    "composition": "salt",
-    "mass": 7.81165885925293,
+    "composition": "gas",
+    "mass": 8.529059410095215,
     "id": 463
   },
   {
-    "composition": "metal",
-    "mass": 6.899220943450928,
+    "composition": "fire",
+    "mass": 9.896868705749512,
     "id": 464
   },
   {
-    "composition": "fire",
-    "mass": 7.066621780395508,
+    "composition": "stone",
+    "mass": 6.908592224121094,
     "id": 465
   },
   {
-    "composition": "fire",
-    "mass": 10.113012313842773,
+    "composition": "lava",
+    "mass": 9.961841583251953,
     "id": 466
   },
   {
-    "composition": "water",
-    "mass": 6.9805707931518555,
+    "composition": "fire",
+    "mass": 14.186542510986328,
     "id": 467
   },
   {
-    "composition": "stone",
-    "mass": 8.436129570007324,
+    "composition": "water",
+    "mass": 9.865667343139648,
     "id": 468
   },
   {
-    "composition": "salt",
-    "mass": 5.26837158203125,
+    "composition": "stone",
+    "mass": 6.99717378616333,
     "id": 469
   },
   {
-    "composition": "stone",
-    "mass": 10.175567626953125,
+    "composition": "salt",
+    "mass": 8.503557205200195,
     "id": 470
   },
   {
-    "composition": "fire",
-    "mass": 9.266822814941406,
+    "composition": "salt",
+    "mass": 9.94089126586914,
     "id": 471
   },
   {
-    "composition": "ice",
-    "mass": 11.956286430358887,
+    "composition": "stone",
+    "mass": 14.59391975402832,
     "id": 472
   },
   {
-    "composition": "metal",
-    "mass": 10.15117073059082,
+    "composition": "fire",
+    "mass": 9.993387222290039,
     "id": 473
   },
   {
-    "composition": "fire",
-    "mass": 10.095450401306152,
+    "composition": "salt",
+    "mass": 8.4744234085083,
     "id": 474
   },
   {
-    "composition": "water",
-    "mass": 5.042177677154541,
+    "composition": "fire",
+    "mass": 14.347782135009766,
     "id": 475
   },
   {
-    "composition": "stone",
-    "mass": 9.717414855957031,
+    "composition": "lava",
+    "mass": 4.261582374572754,
     "id": 476
   },
   {
-    "composition": "ice",
-    "mass": 14.869306564331055,
+    "composition": "gas",
+    "mass": 12.684329986572266,
     "id": 477
   },
   {
-    "composition": "water",
-    "mass": 6.81240177154541,
+    "composition": "metal",
+    "mass": 14.33560562133789,
     "id": 478
   },
   {
-    "composition": "metal",
-    "mass": 8.30410385131836,
+    "composition": "salt",
+    "mass": 11.415602684020996,
     "id": 479
   },
   {
-    "composition": "gas",
-    "mass": 9.810340881347656,
+    "composition": "salt",
+    "mass": 12.928424835205078,
     "id": 480
   },
   {
-    "composition": "fire",
-    "mass": 6.2822465896606445,
+    "composition": "gas",
+    "mass": 9.598313331604004,
     "id": 481
   },
   {
-    "composition": "lava",
-    "mass": 10.812509536743164,
+    "composition": "gas",
+    "mass": 11.17999267578125,
     "id": 482
   },
   {
-    "composition": "gas",
-    "mass": 9.701210975646973,
+    "composition": "ice",
+    "mass": 9.888011932373047,
     "id": 483
   },
   {
-    "composition": "lava",
-    "mass": 6.279125690460205,
+    "composition": "stone",
+    "mass": 12.861516952514648,
     "id": 484
   },
   {
-    "composition": "fire",
-    "mass": 12.906050682067871,
+    "composition": "ice",
+    "mass": 5.5764665603637695,
     "id": 485
   },
   {
-    "composition": "water",
-    "mass": 4.952239513397217,
+    "composition": "gas",
+    "mass": 5.37947940826416,
     "id": 486
   },
   {
-    "composition": "stone",
-    "mass": 5.3854217529296875,
+    "composition": "metal",
+    "mass": 12.064488410949707,
     "id": 487
   },
   {
-    "composition": "water",
-    "mass": 12.45062255859375,
+    "composition": "gas",
+    "mass": 13.615214347839355,
     "id": 488
   },
   {
-    "composition": "fire",
-    "mass": 9.005205154418945,
+    "composition": "water",
+    "mass": 13.740473747253418,
     "id": 489
   },
   {
     "composition": "metal",
-    "mass": 10.516908645629883,
+    "mass": 8.925275802612305,
     "id": 490
   },
   {
     "composition": "stone",
-    "mass": 14.653955459594727,
+    "mass": 8.546785354614258,
     "id": 491
   },
   {
-    "composition": "stone",
-    "mass": 7.146293640136719,
+    "composition": "salt",
+    "mass": 8.640949249267578,
     "id": 492
   },
   {
-    "composition": "ice",
-    "mass": 13.892970085144043,
+    "composition": "lava",
+    "mass": 5.396217346191406,
     "id": 493
   },
   {
-    "composition": "gas",
-    "mass": 6.959366321563721,
+    "composition": "metal",
+    "mass": 5.933389663696289,
     "id": 494
   },
   {
     "composition": "water",
-    "mass": 6.3588948249816895,
+    "mass": 7.157591819763184,
     "id": 495
   },
   {
-    "composition": "gas",
-    "mass": 11.487189292907715,
+    "composition": "fire",
+    "mass": 9.835973739624023,
     "id": 496
   },
   {
-    "composition": "ice",
-    "mass": 6.00734806060791,
+    "composition": "fire",
+    "mass": 5.2558465003967285,
     "id": 497
   },
   {
-    "composition": "fire",
-    "mass": 7.662131309509277,
+    "composition": "ice",
+    "mass": 14.778624534606934,
     "id": 498
   },
   {
-    "composition": "salt",
-    "mass": 14.79548168182373,
+    "composition": "gas",
+    "mass": 8.854862213134766,
     "id": 499
   },
   {
-    "composition": "water",
-    "mass": 6.509823799133301,
+    "composition": "ice",
+    "mass": 10.540801048278809,
     "id": 500
   },
   {
-    "composition": "salt",
-    "mass": 11.0475492477417,
+    "composition": "fire",
+    "mass": 11.422344207763672,
     "id": 501
   },
   {
-    "composition": "lava",
-    "mass": 4.932401657104492,
+    "composition": "salt",
+    "mass": 4.280399799346924,
     "id": 502
   },
   {
-    "composition": "stone",
-    "mass": 10.232434272766113,
+    "composition": "metal",
+    "mass": 13.761159896850586,
     "id": 503
   },
   {
-    "composition": "gas",
-    "mass": 9.786295890808105,
+    "composition": "ice",
+    "mass": 4.064404010772705,
     "id": 504
   },
   {
-    "composition": "water",
-    "mass": 7.39236307144165,
+    "composition": "fire",
+    "mass": 12.860928535461426,
     "id": 505
   },
   {
-    "composition": "lava",
-    "mass": 7.274362087249756,
+    "composition": "salt",
+    "mass": 12.292420387268066,
     "id": 506
   },
   {
-    "composition": "lava",
-    "mass": 14.418500900268555,
+    "composition": "stone",
+    "mass": 4.442038536071777,
     "id": 507
   },
   {
-    "composition": "stone",
-    "mass": 9.686297416687012,
+    "composition": "fire",
+    "mass": 13.854334831237793,
     "id": 508
   },
   {
-    "composition": "fire",
-    "mass": 13.177111625671387,
+    "composition": "gas",
+    "mass": 9.580636978149414,
     "id": 509
   },
   {
-    "composition": "ice",
-    "mass": 9.786895751953125,
+    "composition": "gas",
+    "mass": 6.945674419403076,
     "id": 510
   },
   {
-    "composition": "fire",
-    "mass": 8.289076805114746,
+    "composition": "ice",
+    "mass": 5.300824165344238,
     "id": 511
   },
   {
-    "composition": "water",
-    "mass": 6.831778526306152,
+    "composition": "metal",
+    "mass": 12.935758590698242,
     "id": 512
   },
   {
-    "composition": "water",
-    "mass": 6.77989387512207,
+    "composition": "fire",
+    "mass": 9.467239379882812,
     "id": 513
   },
   {
-    "composition": "metal",
-    "mass": 4.30726432800293,
+    "composition": "water",
+    "mass": 14.660442352294922,
     "id": 514
   },
   {
-    "composition": "lava",
-    "mass": 8.705138206481934,
+    "composition": "salt",
+    "mass": 8.409388542175293,
     "id": 515
   },
   {
     "composition": "water",
-    "mass": 10.67684268951416,
+    "mass": 9.218975067138672,
     "id": 516
   },
   {
-    "composition": "gas",
-    "mass": 13.060582160949707,
+    "composition": "salt",
+    "mass": 7.64511251449585,
     "id": 517
   },
   {
-    "composition": "gas",
-    "mass": 4.662568092346191,
+    "composition": "stone",
+    "mass": 8.877986907958984,
     "id": 518
   },
   {
     "composition": "stone",
-    "mass": 4.383896827697754,
+    "mass": 8.265337944030762,
     "id": 519
   },
   {
-    "composition": "metal",
-    "mass": 13.996053695678711,
+    "composition": "water",
+    "mass": 8.719347953796387,
     "id": 520
   },
   {
-    "composition": "water",
-    "mass": 11.507587432861328,
+    "composition": "ice",
+    "mass": 4.40103816986084,
     "id": 521
   },
   {
-    "composition": "fire",
-    "mass": 7.100703239440918,
+    "composition": "lava",
+    "mass": 13.266274452209473,
     "id": 522
   },
   {
-    "composition": "metal",
-    "mass": 10.226444244384766,
+    "composition": "stone",
+    "mass": 5.85571813583374,
     "id": 523
   },
   {
     "composition": "ice",
-    "mass": 4.383655548095703,
+    "mass": 9.64664077758789,
     "id": 524
   },
   {
-    "composition": "stone",
-    "mass": 6.477651119232178,
+    "composition": "metal",
+    "mass": 10.076837539672852,
     "id": 525
   },
   {
-    "composition": "lava",
-    "mass": 13.651293754577637,
+    "composition": "gas",
+    "mass": 5.92656135559082,
     "id": 526
   },
   {
-    "composition": "salt",
-    "mass": 14.012345314025879,
+    "composition": "metal",
+    "mass": 12.015732765197754,
     "id": 527
   },
   {
-    "composition": "stone",
-    "mass": 13.654309272766113,
+    "composition": "gas",
+    "mass": 9.70259952545166,
     "id": 528
   },
   {
-    "composition": "fire",
-    "mass": 14.96296501159668,
+    "composition": "metal",
+    "mass": 5.930600643157959,
     "id": 529
   },
   {
-    "composition": "stone",
-    "mass": 12.814510345458984,
+    "composition": "gas",
+    "mass": 14.86887264251709,
     "id": 530
   },
   {
-    "composition": "lava",
-    "mass": 7.914513111114502,
+    "composition": "gas",
+    "mass": 9.398117065429688,
     "id": 531
   },
   {
-    "composition": "stone",
-    "mass": 9.292766571044922,
+    "composition": "lava",
+    "mass": 7.776190280914307,
     "id": 532
   },
   {
-    "composition": "metal",
-    "mass": 7.787688255310059,
+    "composition": "lava",
+    "mass": 11.777738571166992,
     "id": 533
   },
   {
     "composition": "salt",
-    "mass": 6.591909408569336,
+    "mass": 13.73437786102295,
     "id": 534
   },
   {
-    "composition": "water",
-    "mass": 13.489847183227539,
+    "composition": "ice",
+    "mass": 5.414711952209473,
     "id": 535
   },
   {
-    "composition": "gas",
-    "mass": 9.825502395629883,
+    "composition": "salt",
+    "mass": 6.5452775955200195,
     "id": 536
   },
   {
-    "composition": "gas",
-    "mass": 6.822456359863281,
+    "composition": "stone",
+    "mass": 6.253389358520508,
     "id": 537
   },
   {
-    "composition": "ice",
-    "mass": 14.458372116088867,
+    "composition": "stone",
+    "mass": 6.421365737915039,
     "id": 538
   },
   {
-    "composition": "salt",
-    "mass": 12.722033500671387,
+    "composition": "water",
+    "mass": 10.276423454284668,
     "id": 539
   },
   {
-    "composition": "gas",
-    "mass": 13.181656837463379,
+    "composition": "salt",
+    "mass": 8.28155517578125,
     "id": 540
   },
   {
-    "composition": "stone",
-    "mass": 10.710739135742188,
+    "composition": "fire",
+    "mass": 4.786726951599121,
     "id": 541
   },
   {
-    "composition": "water",
-    "mass": 12.427960395812988,
+    "composition": "lava",
+    "mass": 4.918995380401611,
     "id": 542
   },
   {
-    "composition": "salt",
-    "mass": 11.33251953125,
+    "composition": "lava",
+    "mass": 5.741155624389648,
     "id": 543
   },
   {
-    "composition": "stone",
-    "mass": 12.77372932434082,
+    "composition": "water",
+    "mass": 8.412443161010742,
     "id": 544
   },
   {
-    "composition": "metal",
-    "mass": 9.724946975708008,
+    "composition": "gas",
+    "mass": 11.845475196838379,
     "id": 545
   },
   {
-    "composition": "stone",
-    "mass": 11.888944625854492,
+    "composition": "ice",
+    "mass": 8.269187927246094,
     "id": 546
   },
   {
-    "composition": "ice",
-    "mass": 5.934123992919922,
+    "composition": "fire",
+    "mass": 5.381463527679443,
     "id": 547
   },
   {
-    "composition": "lava",
-    "mass": 10.160293579101562,
+    "composition": "salt",
+    "mass": 8.119183540344238,
     "id": 548
   },
   {
-    "composition": "ice",
-    "mass": 10.712949752807617,
+    "composition": "lava",
+    "mass": 5.69549560546875,
     "id": 549
   },
   {
-    "composition": "ice",
-    "mass": 13.37446403503418,
+    "composition": "lava",
+    "mass": 9.162015914916992,
     "id": 550
   },
   {
-    "composition": "fire",
-    "mass": 9.67883586883545,
+    "composition": "lava",
+    "mass": 14.104548454284668,
     "id": 551
   },
   {
-    "composition": "ice",
-    "mass": 11.753591537475586,
+    "composition": "stone",
+    "mass": 11.444765090942383,
     "id": 552
   },
   {
-    "composition": "metal",
-    "mass": 12.657174110412598,
+    "composition": "water",
+    "mass": 12.82553768157959,
     "id": 553
   },
   {
-    "composition": "ice",
-    "mass": 12.89528751373291,
+    "composition": "water",
+    "mass": 5.223637580871582,
     "id": 554
   },
   {
-    "composition": "fire",
-    "mass": 4.847296714782715,
+    "composition": "water",
+    "mass": 8.296892166137695,
     "id": 555
   },
   {
-    "composition": "metal",
-    "mass": 14.104212760925293,
+    "composition": "fire",
+    "mass": 9.048356056213379,
     "id": 556
   },
   {
-    "composition": "metal",
-    "mass": 10.148773193359375,
+    "composition": "fire",
+    "mass": 4.311317443847656,
     "id": 557
   },
   {
-    "composition": "gas",
-    "mass": 8.889780044555664,
+    "composition": "salt",
+    "mass": 7.578271865844727,
     "id": 558
   },
   {
-    "composition": "water",
-    "mass": 11.342094421386719,
+    "composition": "ice",
+    "mass": 10.324201583862305,
     "id": 559
   },
   {
-    "composition": "fire",
-    "mass": 14.833128929138184,
+    "composition": "gas",
+    "mass": 13.874755859375,
     "id": 560
   },
   {
-    "composition": "ice",
-    "mass": 4.078319549560547,
+    "composition": "gas",
+    "mass": 7.735807418823242,
     "id": 561
   },
   {
-    "composition": "gas",
-    "mass": 13.243709564208984,
+    "composition": "salt",
+    "mass": 9.756966590881348,
     "id": 562
   },
   {
-    "composition": "ice",
-    "mass": 12.28038501739502,
+    "composition": "water",
+    "mass": 10.194499969482422,
     "id": 563
   },
   {
-    "composition": "salt",
-    "mass": 13.288211822509766,
+    "composition": "fire",
+    "mass": 6.607998847961426,
     "id": 564
   },
   {
-    "composition": "fire",
-    "mass": 7.0622944831848145,
+    "composition": "water",
+    "mass": 11.844205856323242,
     "id": 565
   },
   {
-    "composition": "water",
-    "mass": 14.198700904846191,
+    "composition": "lava",
+    "mass": 14.485823631286621,
     "id": 566
   },
   {
-    "composition": "metal",
-    "mass": 10.833526611328125,
+    "composition": "gas",
+    "mass": 14.988096237182617,
     "id": 567
   },
   {
-    "composition": "ice",
-    "mass": 6.4779276847839355,
+    "composition": "gas",
+    "mass": 6.847540855407715,
     "id": 568
   },
   {
     "composition": "metal",
-    "mass": 13.561151504516602,
+    "mass": 4.892271041870117,
     "id": 569
   },
   {
-    "composition": "lava",
-    "mass": 13.303115844726562,
+    "composition": "metal",
+    "mass": 8.315073013305664,
     "id": 570
   },
   {
-    "composition": "fire",
-    "mass": 4.132293224334717,
+    "composition": "gas",
+    "mass": 13.172805786132812,
     "id": 571
   },
   {
-    "composition": "lava",
-    "mass": 9.77926254272461,
+    "composition": "metal",
+    "mass": 12.483559608459473,
     "id": 572
   },
   {
-    "composition": "fire",
-    "mass": 4.3000078201293945,
+    "composition": "ice",
+    "mass": 4.645763874053955,
     "id": 573
   },
   {
-    "composition": "gas",
-    "mass": 13.86284351348877,
+    "composition": "water",
+    "mass": 5.447880268096924,
     "id": 574
   },
   {
-    "composition": "salt",
-    "mass": 9.445892333984375,
+    "composition": "gas",
+    "mass": 7.1561994552612305,
     "id": 575
   },
   {
-    "composition": "gas",
-    "mass": 6.329986095428467,
+    "composition": "lava",
+    "mass": 4.7547526359558105,
     "id": 576
   },
   {
-    "composition": "ice",
-    "mass": 7.4770355224609375,
+    "composition": "water",
+    "mass": 12.20650577545166,
     "id": 577
   },
   {
-    "composition": "water",
-    "mass": 10.62196159362793,
+    "composition": "gas",
+    "mass": 6.4939093589782715,
     "id": 578
   },
   {
-    "composition": "water",
-    "mass": 12.951400756835938,
+    "composition": "metal",
+    "mass": 8.378805160522461,
     "id": 579
   },
   {
     "composition": "salt",
-    "mass": 14.897234916687012,
+    "mass": 4.9475626945495605,
     "id": 580
   },
   {
-    "composition": "lava",
-    "mass": 12.337411880493164,
+    "composition": "ice",
+    "mass": 13.277076721191406,
     "id": 581
   },
   {
-    "composition": "salt",
-    "mass": 14.64442253112793,
+    "composition": "gas",
+    "mass": 13.207718849182129,
     "id": 582
   },
   {
-    "composition": "stone",
-    "mass": 9.23740005493164,
+    "composition": "lava",
+    "mass": 5.923091411590576,
     "id": 583
   },
   {
-    "composition": "water",
-    "mass": 8.36494255065918,
+    "composition": "gas",
+    "mass": 5.640140533447266,
     "id": 584
   },
   {
-    "composition": "metal",
-    "mass": 4.002189636230469,
+    "composition": "fire",
+    "mass": 8.131467819213867,
     "id": 585
   },
   {
-    "composition": "salt",
-    "mass": 9.577886581420898,
+    "composition": "gas",
+    "mass": 6.575687885284424,
     "id": 586
   },
   {
-    "composition": "lava",
-    "mass": 5.231461524963379,
+    "composition": "water",
+    "mass": 5.002692222595215,
     "id": 587
   },
   {
-    "composition": "salt",
-    "mass": 6.802022933959961,
+    "composition": "ice",
+    "mass": 12.807417869567871,
     "id": 588
   },
   {
-    "composition": "ice",
-    "mass": 10.971750259399414,
+    "composition": "water",
+    "mass": 4.432993412017822,
     "id": 589
   },
   {
-    "composition": "metal",
-    "mass": 14.659534454345703,
+    "composition": "salt",
+    "mass": 11.887701034545898,
     "id": 590
   },
   {
-    "composition": "lava",
-    "mass": 9.505807876586914,
+    "composition": "gas",
+    "mass": 10.804753303527832,
     "id": 591
   },
   {
     "composition": "salt",
-    "mass": 11.361251831054688,
+    "mass": 5.985484600067139,
     "id": 592
   },
   {
-    "composition": "fire",
-    "mass": 5.472498893737793,
+    "composition": "gas",
+    "mass": 10.133594512939453,
     "id": 593
   },
   {
-    "composition": "salt",
-    "mass": 14.971153259277344,
+    "composition": "lava",
+    "mass": 6.670987129211426,
     "id": 594
   },
   {
-    "composition": "lava",
-    "mass": 11.8988618850708,
+    "composition": "water",
+    "mass": 9.985418319702148,
     "id": 595
   },
   {
-    "composition": "ice",
-    "mass": 13.015671730041504,
+    "composition": "salt",
+    "mass": 13.044095993041992,
     "id": 596
   },
   {
-    "composition": "gas",
-    "mass": 13.783245086669922,
+    "composition": "ice",
+    "mass": 9.000126838684082,
     "id": 597
   },
   {
-    "composition": "stone",
-    "mass": 5.567008018493652,
+    "composition": "fire",
+    "mass": 4.573488235473633,
     "id": 598
   },
   {
-    "composition": "ice",
-    "mass": 10.092538833618164,
+    "composition": "fire",
+    "mass": 4.6643548011779785,
     "id": 599
   },
   {
-    "composition": "water",
-    "mass": 13.36490249633789,
+    "composition": "lava",
+    "mass": 9.935419082641602,
     "id": 600
   },
   {
     "composition": "ice",
-    "mass": 8.864250183105469,
+    "mass": 7.843550682067871,
     "id": 601
   },
   {
-    "composition": "fire",
-    "mass": 12.182948112487793,
+    "composition": "metal",
+    "mass": 14.462845802307129,
     "id": 602
   },
   {
-    "composition": "fire",
-    "mass": 6.206056118011475,
+    "composition": "ice",
+    "mass": 4.028919219970703,
     "id": 603
   },
   {
     "composition": "stone",
-    "mass": 10.438087463378906,
+    "mass": 7.075248718261719,
     "id": 604
   },
   {
-    "composition": "fire",
-    "mass": 8.017165184020996,
+    "composition": "ice",
+    "mass": 6.275934219360352,
     "id": 605
   },
   {
-    "composition": "gas",
-    "mass": 6.288941383361816,
+    "composition": "metal",
+    "mass": 6.154538154602051,
     "id": 606
   },
   {
-    "composition": "stone",
-    "mass": 6.606651782989502,
+    "composition": "ice",
+    "mass": 5.641884803771973,
     "id": 607
   },
   {
-    "composition": "lava",
-    "mass": 10.583280563354492,
+    "composition": "water",
+    "mass": 8.769752502441406,
     "id": 608
   },
   {
     "composition": "water",
-    "mass": 5.928131103515625,
+    "mass": 14.787968635559082,
     "id": 609
   },
   {
-    "composition": "metal",
-    "mass": 5.269667148590088,
+    "composition": "ice",
+    "mass": 5.298938751220703,
     "id": 610
   },
   {
-    "composition": "stone",
-    "mass": 4.996036529541016,
+    "composition": "metal",
+    "mass": 6.248869895935059,
     "id": 611
   },
   {
-    "composition": "water",
-    "mass": 9.16494369506836,
+    "composition": "metal",
+    "mass": 5.326374053955078,
     "id": 612
   },
   {
-    "composition": "water",
-    "mass": 7.289084434509277,
+    "composition": "lava",
+    "mass": 12.12620735168457,
     "id": 613
   },
   {
-    "composition": "water",
-    "mass": 8.509007453918457,
+    "composition": "stone",
+    "mass": 12.041988372802734,
     "id": 614
   },
   {
-    "composition": "lava",
-    "mass": 9.40852165222168,
+    "composition": "fire",
+    "mass": 14.30247688293457,
     "id": 615
   },
   {
-    "composition": "salt",
-    "mass": 10.89175796508789,
+    "composition": "stone",
+    "mass": 8.18188190460205,
     "id": 616
   },
   {
-    "composition": "gas",
-    "mass": 8.253820419311523,
+    "composition": "salt",
+    "mass": 11.354530334472656,
     "id": 617
   },
   {
-    "composition": "fire",
-    "mass": 11.11426830291748,
+    "composition": "water",
+    "mass": 10.127933502197266,
     "id": 618
   },
   {
-    "composition": "lava",
-    "mass": 14.052684783935547,
+    "composition": "salt",
+    "mass": 14.559783935546875,
     "id": 619
   },
   {
-    "composition": "salt",
-    "mass": 7.16635799407959,
+    "composition": "water",
+    "mass": 4.5436224937438965,
     "id": 620
   },
   {
-    "composition": "ice",
-    "mass": 6.265655517578125,
+    "composition": "metal",
+    "mass": 7.6083292961120605,
     "id": 621
   },
   {
-    "composition": "water",
-    "mass": 13.944622993469238,
+    "composition": "ice",
+    "mass": 13.135002136230469,
     "id": 622
   },
   {
     "composition": "ice",
-    "mass": 10.943072319030762,
+    "mass": 12.96826457977295,
     "id": 623
   },
   {
-    "composition": "fire",
-    "mass": 8.886609077453613,
+    "composition": "water",
+    "mass": 7.671881675720215,
     "id": 624
   },
   {
     "composition": "metal",
-    "mass": 14.292537689208984,
+    "mass": 5.392727375030518,
     "id": 625
   },
   {
-    "composition": "fire",
-    "mass": 9.505783081054688,
+    "composition": "stone",
+    "mass": 4.526113510131836,
     "id": 626
   },
   {
-    "composition": "ice",
-    "mass": 13.00184154510498,
+    "composition": "stone",
+    "mass": 7.632331371307373,
     "id": 627
   },
   {
     "composition": "salt",
-    "mass": 11.634944915771484,
+    "mass": 12.031829833984375,
     "id": 628
   },
   {
-    "composition": "fire",
-    "mass": 14.22325611114502,
+    "composition": "stone",
+    "mass": 7.337622165679932,
     "id": 629
   },
   {
-    "composition": "gas",
-    "mass": 5.139076232910156,
+    "composition": "water",
+    "mass": 10.156697273254395,
     "id": 630
   },
   {
-    "composition": "water",
-    "mass": 4.762392520904541,
+    "composition": "salt",
+    "mass": 11.9486083984375,
     "id": 631
   },
   {
-    "composition": "stone",
-    "mass": 4.167843818664551,
+    "composition": "metal",
+    "mass": 4.112884521484375,
     "id": 632
   },
   {
-    "composition": "fire",
-    "mass": 14.114873886108398,
+    "composition": "salt",
+    "mass": 10.602645874023438,
     "id": 633
   },
   {
-    "composition": "lava",
-    "mass": 5.768084526062012,
+    "composition": "ice",
+    "mass": 9.810371398925781,
     "id": 634
   },
   {
     "composition": "fire",
-    "mass": 12.977935791015625,
+    "mass": 10.0126953125,
     "id": 635
   },
   {
-    "composition": "salt",
-    "mass": 6.561834812164307,
+    "composition": "water",
+    "mass": 8.751382827758789,
     "id": 636
   },
   {
-    "composition": "ice",
-    "mass": 6.136849403381348,
+    "composition": "fire",
+    "mass": 8.624155044555664,
     "id": 637
   },
   {
-    "composition": "metal",
-    "mass": 13.2697114944458,
+    "composition": "fire",
+    "mass": 5.230726718902588,
     "id": 638
   },
   {
-    "composition": "salt",
-    "mass": 8.327592849731445,
+    "composition": "gas",
+    "mass": 8.133552551269531,
     "id": 639
   },
   {
-    "composition": "fire",
-    "mass": 4.28556489944458,
+    "composition": "metal",
+    "mass": 6.299325942993164,
     "id": 640
   },
   {
-    "composition": "ice",
-    "mass": 9.431262016296387,
+    "composition": "lava",
+    "mass": 9.614120483398438,
     "id": 641
   },
   {
-    "composition": "gas",
-    "mass": 13.309001922607422,
+    "composition": "lava",
+    "mass": 5.983654022216797,
     "id": 642
   },
   {
-    "composition": "stone",
-    "mass": 14.021026611328125,
+    "composition": "ice",
+    "mass": 4.743831634521484,
     "id": 643
   },
   {
-    "composition": "lava",
-    "mass": 12.849247932434082,
+    "composition": "salt",
+    "mass": 9.957498550415039,
     "id": 644
   },
   {
-    "composition": "fire",
-    "mass": 6.701398849487305,
+    "composition": "water",
+    "mass": 5.157332897186279,
     "id": 645
   },
   {
-    "composition": "water",
-    "mass": 9.218250274658203,
+    "composition": "salt",
+    "mass": 6.319614410400391,
     "id": 646
   },
   {
-    "composition": "gas",
-    "mass": 11.429740905761719,
+    "composition": "ice",
+    "mass": 10.165334701538086,
     "id": 647
   },
   {
-    "composition": "salt",
-    "mass": 11.533414840698242,
+    "composition": "water",
+    "mass": 6.03565788269043,
     "id": 648
   },
   {
-    "composition": "ice",
-    "mass": 7.152423858642578,
+    "composition": "water",
+    "mass": 4.408598899841309,
     "id": 649
   },
   {
-    "composition": "gas",
-    "mass": 8.210886001586914,
+    "composition": "ice",
+    "mass": 7.008968353271484,
     "id": 650
   },
   {
-    "composition": "metal",
-    "mass": 10.919095993041992,
+    "composition": "ice",
+    "mass": 8.578450202941895,
     "id": 651
   },
   {
-    "composition": "ice",
-    "mass": 5.018233299255371,
+    "composition": "fire",
+    "mass": 10.815516471862793,
     "id": 652
   },
   {
-    "composition": "salt",
-    "mass": 8.438179016113281,
+    "composition": "lava",
+    "mass": 9.765625,
     "id": 653
   },
   {
-    "composition": "lava",
-    "mass": 6.899364471435547,
+    "composition": "metal",
+    "mass": 5.895945072174072,
     "id": 654
   },
   {
-    "composition": "gas",
-    "mass": 5.819723129272461,
+    "composition": "metal",
+    "mass": 12.152813911437988,
     "id": 655
   },
   {
-    "composition": "water",
-    "mass": 6.522737503051758,
+    "composition": "gas",
+    "mass": 8.07412338256836,
     "id": 656
   },
   {
-    "composition": "fire",
-    "mass": 13.517136573791504,
+    "composition": "stone",
+    "mass": 6.4860687255859375,
     "id": 657
   },
   {
-    "composition": "salt",
-    "mass": 9.733701705932617,
+    "composition": "fire",
+    "mass": 13.658024787902832,
     "id": 658
   },
   {
-    "composition": "salt",
-    "mass": 11.96043586730957,
+    "composition": "gas",
+    "mass": 11.623588562011719,
     "id": 659
   },
   {
     "composition": "gas",
-    "mass": 12.320144653320312,
+    "mass": 14.17580509185791,
     "id": 660
   },
   {
-    "composition": "fire",
-    "mass": 10.788339614868164,
+    "composition": "stone",
+    "mass": 11.528766632080078,
     "id": 661
   },
   {
-    "composition": "ice",
-    "mass": 11.5935697555542,
+    "composition": "metal",
+    "mass": 7.967494010925293,
     "id": 662
   },
   {
     "composition": "water",
-    "mass": 12.386866569519043,
+    "mass": 9.643644332885742,
     "id": 663
   },
   {
-    "composition": "water",
-    "mass": 10.221029281616211,
+    "composition": "metal",
+    "mass": 14.960184097290039,
     "id": 664
   },
   {
     "composition": "fire",
-    "mass": 14.564668655395508,
+    "mass": 8.929377555847168,
     "id": 665
   },
   {
-    "composition": "lava",
-    "mass": 14.351755142211914,
+    "composition": "metal",
+    "mass": 12.930624961853027,
     "id": 666
   },
   {
     "composition": "lava",
-    "mass": 4.810971736907959,
+    "mass": 14.006601333618164,
     "id": 667
   },
   {
-    "composition": "lava",
-    "mass": 8.810460090637207,
+    "composition": "metal",
+    "mass": 10.44186019897461,
     "id": 668
   },
   {
-    "composition": "ice",
-    "mass": 7.846046447753906,
+    "composition": "gas",
+    "mass": 4.269787788391113,
     "id": 669
   },
   {
-    "composition": "lava",
-    "mass": 9.780559539794922,
+    "composition": "ice",
+    "mass": 4.327394008636475,
     "id": 670
   },
   {
-    "composition": "water",
-    "mass": 13.976180076599121,
+    "composition": "gas",
+    "mass": 11.31904411315918,
     "id": 671
   },
   {
-    "composition": "lava",
-    "mass": 11.888277053833008,
+    "composition": "gas",
+    "mass": 8.594194412231445,
     "id": 672
   },
   {
-    "composition": "stone",
-    "mass": 8.479225158691406,
+    "composition": "ice",
+    "mass": 7.268296241760254,
     "id": 673
   },
   {
     "composition": "ice",
-    "mass": 8.695144653320312,
+    "mass": 8.79088306427002,
     "id": 674
   },
   {
-    "composition": "lava",
-    "mass": 4.481374263763428,
+    "composition": "water",
+    "mass": 9.902420997619629,
     "id": 675
   },
   {
-    "composition": "ice",
-    "mass": 13.693544387817383,
+    "composition": "salt",
+    "mass": 13.215203285217285,
     "id": 676
   },
   {
-    "composition": "salt",
-    "mass": 8.133562088012695,
+    "composition": "water",
+    "mass": 6.204207420349121,
     "id": 677
   },
   {
-    "composition": "gas",
-    "mass": 12.719045639038086,
+    "composition": "metal",
+    "mass": 12.650432586669922,
     "id": 678
   },
   {
-    "composition": "lava",
-    "mass": 12.684040069580078,
+    "composition": "ice",
+    "mass": 13.626001358032227,
     "id": 679
   },
   {
-    "composition": "salt",
-    "mass": 4.094780921936035,
+    "composition": "fire",
+    "mass": 6.067920207977295,
     "id": 680
   },
   {
-    "composition": "ice",
-    "mass": 4.083737373352051,
+    "composition": "metal",
+    "mass": 6.795678615570068,
     "id": 681
   },
   {
-    "composition": "gas",
-    "mass": 14.517032623291016,
+    "composition": "stone",
+    "mass": 5.716372489929199,
     "id": 682
   },
   {
-    "composition": "gas",
-    "mass": 13.098793029785156,
+    "composition": "ice",
+    "mass": 14.011924743652344,
     "id": 683
   },
   {
-    "composition": "stone",
-    "mass": 11.996925354003906,
+    "composition": "salt",
+    "mass": 4.150664806365967,
     "id": 684
   },
   {
     "composition": "fire",
-    "mass": 7.570593357086182,
+    "mass": 4.273726940155029,
     "id": 685
   },
   {
-    "composition": "metal",
-    "mass": 14.7692289352417,
+    "composition": "stone",
+    "mass": 5.806571960449219,
     "id": 686
   },
   {
-    "composition": "stone",
-    "mass": 4.222188472747803,
+    "composition": "metal",
+    "mass": 7.311774253845215,
     "id": 687
   },
   {
-    "composition": "fire",
-    "mass": 5.754048824310303,
+    "composition": "lava",
+    "mass": 6.08448600769043,
     "id": 688
   },
   {
-    "composition": "gas",
-    "mass": 12.51036262512207,
+    "composition": "fire",
+    "mass": 11.738040924072266,
     "id": 689
   },
   {
-    "composition": "fire",
-    "mass": 11.557825088500977,
+    "composition": "metal",
+    "mass": 12.306294441223145,
     "id": 690
   },
   {
-    "composition": "gas",
-    "mass": 9.9480619430542,
+    "composition": "ice",
+    "mass": 8.331262588500977,
     "id": 691
   },
   {
-    "composition": "gas",
-    "mass": 12.383708000183105,
+    "composition": "metal",
+    "mass": 6.205649375915527,
     "id": 692
   },
   {
     "composition": "water",
-    "mass": 4.5402655601501465,
+    "mass": 12.441794395446777,
     "id": 693
   },
   {
-    "composition": "ice",
-    "mass": 5.20396614074707,
+    "composition": "stone",
+    "mass": 4.512790679931641,
     "id": 694
   },
   {
-    "composition": "fire",
-    "mass": 5.689855575561523,
+    "composition": "lava",
+    "mass": 10.575498580932617,
     "id": 695
   },
   {
-    "composition": "salt",
-    "mass": 11.854366302490234,
+    "composition": "fire",
+    "mass": 8.020357131958008,
     "id": 696
   },
   {
-    "composition": "stone",
-    "mass": 6.825017929077148,
+    "composition": "water",
+    "mass": 5.432923316955566,
     "id": 697
   },
   {
-    "composition": "salt",
-    "mass": 4.927350044250488,
+    "composition": "lava",
+    "mass": 13.944764137268066,
     "id": 698
   },
   {
-    "composition": "metal",
-    "mass": 4.997219085693359,
+    "composition": "stone",
+    "mass": 8.801974296569824,
     "id": 699
+  },
+  {
+    "composition": "fire",
+    "mass": 12.216983795166016,
+    "id": 700
+  },
+  {
+    "composition": "gas",
+    "mass": 6.978344917297363,
+    "id": 701
+  },
+  {
+    "composition": "ice",
+    "mass": 14.194334030151367,
+    "id": 702
+  },
+  {
+    "composition": "fire",
+    "mass": 5.301783561706543,
+    "id": 703
+  },
+  {
+    "composition": "gas",
+    "mass": 13.437948226928711,
+    "id": 704
+  },
+  {
+    "composition": "gas",
+    "mass": 10.415369987487793,
+    "id": 705
+  },
+  {
+    "composition": "water",
+    "mass": 9.265296936035156,
+    "id": 706
+  },
+  {
+    "composition": "salt",
+    "mass": 14.181760787963867,
+    "id": 707
+  },
+  {
+    "composition": "lava",
+    "mass": 4.488923072814941,
+    "id": 708
+  },
+  {
+    "composition": "stone",
+    "mass": 10.511101722717285,
+    "id": 709
+  },
+  {
+    "composition": "salt",
+    "mass": 6.676468849182129,
+    "id": 710
+  },
+  {
+    "composition": "fire",
+    "mass": 7.5911102294921875,
+    "id": 711
+  },
+  {
+    "composition": "lava",
+    "mass": 10.607429504394531,
+    "id": 712
+  },
+  {
+    "composition": "fire",
+    "mass": 12.065864562988281,
+    "id": 713
+  },
+  {
+    "composition": "gas",
+    "mass": 9.912605285644531,
+    "id": 714
+  },
+  {
+    "composition": "lava",
+    "mass": 9.225732803344727,
+    "id": 715
+  },
+  {
+    "composition": "metal",
+    "mass": 6.825926780700684,
+    "id": 716
+  },
+  {
+    "composition": "metal",
+    "mass": 5.370744705200195,
+    "id": 717
+  },
+  {
+    "composition": "gas",
+    "mass": 7.077838897705078,
+    "id": 718
+  },
+  {
+    "composition": "ice",
+    "mass": 11.55189323425293,
+    "id": 719
+  },
+  {
+    "composition": "salt",
+    "mass": 11.346370697021484,
+    "id": 720
+  },
+  {
+    "composition": "gas",
+    "mass": 5.222084045410156,
+    "id": 721
+  },
+  {
+    "composition": "stone",
+    "mass": 4.8477935791015625,
+    "id": 722
+  },
+  {
+    "composition": "stone",
+    "mass": 10.017984390258789,
+    "id": 723
+  },
+  {
+    "composition": "stone",
+    "mass": 14.193793296813965,
+    "id": 724
+  },
+  {
+    "composition": "ice",
+    "mass": 8.507318496704102,
+    "id": 725
+  },
+  {
+    "composition": "metal",
+    "mass": 8.02651596069336,
+    "id": 726
+  },
+  {
+    "composition": "water",
+    "mass": 10.069042205810547,
+    "id": 727
+  },
+  {
+    "composition": "metal",
+    "mass": 14.235764503479004,
+    "id": 728
+  },
+  {
+    "composition": "fire",
+    "mass": 7.906787395477295,
+    "id": 729
+  },
+  {
+    "composition": "ice",
+    "mass": 14.193028450012207,
+    "id": 730
+  },
+  {
+    "composition": "lava",
+    "mass": 10.043357849121094,
+    "id": 731
+  },
+  {
+    "composition": "fire",
+    "mass": 10.94273853302002,
+    "id": 732
+  },
+  {
+    "composition": "ice",
+    "mass": 5.005205154418945,
+    "id": 733
+  },
+  {
+    "composition": "ice",
+    "mass": 8.069829940795898,
+    "id": 734
+  },
+  {
+    "composition": "fire",
+    "mass": 13.013866424560547,
+    "id": 735
+  },
+  {
+    "composition": "metal",
+    "mass": 13.02105712890625,
+    "id": 736
+  },
+  {
+    "composition": "stone",
+    "mass": 10.074214935302734,
+    "id": 737
+  },
+  {
+    "composition": "ice",
+    "mass": 8.361810684204102,
+    "id": 738
+  },
+  {
+    "composition": "gas",
+    "mass": 7.339203834533691,
+    "id": 739
+  },
+  {
+    "composition": "gas",
+    "mass": 5.276026248931885,
+    "id": 740
+  },
+  {
+    "composition": "fire",
+    "mass": 11.974018096923828,
+    "id": 741
+  },
+  {
+    "composition": "fire",
+    "mass": 11.899089813232422,
+    "id": 742
+  },
+  {
+    "composition": "gas",
+    "mass": 8.110170364379883,
+    "id": 743
+  },
+  {
+    "composition": "fire",
+    "mass": 6.756775856018066,
+    "id": 744
+  },
+  {
+    "composition": "ice",
+    "mass": 4.027307033538818,
+    "id": 745
+  },
+  {
+    "composition": "fire",
+    "mass": 9.970911026000977,
+    "id": 746
+  },
+  {
+    "composition": "salt",
+    "mass": 9.817020416259766,
+    "id": 747
+  },
+  {
+    "composition": "metal",
+    "mass": 10.39773178100586,
+    "id": 748
+  },
+  {
+    "composition": "water",
+    "mass": 8.342752456665039,
+    "id": 749
+  },
+  {
+    "composition": "metal",
+    "mass": 8.76026725769043,
+    "id": 750
+  },
+  {
+    "composition": "lava",
+    "mass": 10.42138671875,
+    "id": 751
+  },
+  {
+    "composition": "fire",
+    "mass": 4.003331184387207,
+    "id": 752
+  },
+  {
+    "composition": "fire",
+    "mass": 14.908119201660156,
+    "id": 753
+  },
+  {
+    "composition": "fire",
+    "mass": 5.7800822257995605,
+    "id": 754
+  },
+  {
+    "composition": "ice",
+    "mass": 6.593785285949707,
+    "id": 755
+  },
+  {
+    "composition": "salt",
+    "mass": 4.523238182067871,
+    "id": 756
+  },
+  {
+    "composition": "salt",
+    "mass": 7.834532737731934,
+    "id": 757
+  },
+  {
+    "composition": "water",
+    "mass": 14.171760559082031,
+    "id": 758
+  },
+  {
+    "composition": "stone",
+    "mass": 8.173572540283203,
+    "id": 759
+  },
+  {
+    "composition": "stone",
+    "mass": 5.134605407714844,
+    "id": 760
+  },
+  {
+    "composition": "gas",
+    "mass": 8.413755416870117,
+    "id": 761
+  },
+  {
+    "composition": "salt",
+    "mass": 13.655637741088867,
+    "id": 762
+  },
+  {
+    "composition": "salt",
+    "mass": 5.92283821105957,
+    "id": 763
+  },
+  {
+    "composition": "gas",
+    "mass": 14.686062812805176,
+    "id": 764
+  },
+  {
+    "composition": "salt",
+    "mass": 5.14932107925415,
+    "id": 765
+  },
+  {
+    "composition": "gas",
+    "mass": 9.820303916931152,
+    "id": 766
+  },
+  {
+    "composition": "ice",
+    "mass": 11.379144668579102,
+    "id": 767
+  },
+  {
+    "composition": "gas",
+    "mass": 4.564907550811768,
+    "id": 768
+  },
+  {
+    "composition": "salt",
+    "mass": 6.640166282653809,
+    "id": 769
+  },
+  {
+    "composition": "water",
+    "mass": 14.303984642028809,
+    "id": 770
+  },
+  {
+    "composition": "water",
+    "mass": 12.064164161682129,
+    "id": 771
+  },
+  {
+    "composition": "metal",
+    "mass": 10.024592399597168,
+    "id": 772
+  },
+  {
+    "composition": "salt",
+    "mass": 12.131901741027832,
+    "id": 773
+  },
+  {
+    "composition": "salt",
+    "mass": 4.2561516761779785,
+    "id": 774
+  },
+  {
+    "composition": "ice",
+    "mass": 5.47615909576416,
+    "id": 775
+  },
+  {
+    "composition": "stone",
+    "mass": 13.453902244567871,
+    "id": 776
+  },
+  {
+    "composition": "fire",
+    "mass": 8.706167221069336,
+    "id": 777
+  },
+  {
+    "composition": "lava",
+    "mass": 10.271209716796875,
+    "id": 778
+  },
+  {
+    "composition": "water",
+    "mass": 14.18389892578125,
+    "id": 779
+  },
+  {
+    "composition": "water",
+    "mass": 7.982346534729004,
+    "id": 780
+  },
+  {
+    "composition": "salt",
+    "mass": 7.452508926391602,
+    "id": 781
+  },
+  {
+    "composition": "metal",
+    "mass": 10.75859546661377,
+    "id": 782
+  },
+  {
+    "composition": "stone",
+    "mass": 10.948013305664062,
+    "id": 783
+  },
+  {
+    "composition": "metal",
+    "mass": 7.198089599609375,
+    "id": 784
+  },
+  {
+    "composition": "stone",
+    "mass": 8.56001091003418,
+    "id": 785
+  },
+  {
+    "composition": "stone",
+    "mass": 4.454815864562988,
+    "id": 786
+  },
+  {
+    "composition": "salt",
+    "mass": 8.1229248046875,
+    "id": 787
+  },
+  {
+    "composition": "salt",
+    "mass": 7.605335235595703,
+    "id": 788
+  },
+  {
+    "composition": "fire",
+    "mass": 11.077430725097656,
+    "id": 789
+  },
+  {
+    "composition": "metal",
+    "mass": 5.492932319641113,
+    "id": 790
+  },
+  {
+    "composition": "water",
+    "mass": 12.638392448425293,
+    "id": 791
+  },
+  {
+    "composition": "ice",
+    "mass": 12.767447471618652,
+    "id": 792
+  },
+  {
+    "composition": "metal",
+    "mass": 9.120855331420898,
+    "id": 793
+  },
+  {
+    "composition": "water",
+    "mass": 12.123690605163574,
+    "id": 794
+  },
+  {
+    "composition": "water",
+    "mass": 8.624382019042969,
+    "id": 795
+  },
+  {
+    "composition": "lava",
+    "mass": 4.870122909545898,
+    "id": 796
+  },
+  {
+    "composition": "salt",
+    "mass": 13.556931495666504,
+    "id": 797
+  },
+  {
+    "composition": "lava",
+    "mass": 8.829967498779297,
+    "id": 798
+  },
+  {
+    "composition": "gas",
+    "mass": 9.226312637329102,
+    "id": 799
   }
 ]

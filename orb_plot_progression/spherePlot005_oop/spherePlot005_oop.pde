@@ -10,7 +10,7 @@ Planet[] orbs;
 PFont font;
 
 void setup() {
-  size(700, 700, P3D);
+  size(700, 725, P3D);
   noStroke();
   ortho();
 
@@ -44,7 +44,7 @@ void setup() {
       planetColor = #ffffff;
     }
 
-    orbs[i] = new Planet(new PVector(width/2, height/2), planet.getFloat("mass"), planetColor, i, planetType);
+    orbs[i] = new Planet(new PVector(width/2, height/2-25), planet.getFloat("mass"), planetColor, i, planetType);
   }
 }
 
@@ -59,21 +59,23 @@ void draw() {
 
   // orb-orb collision
   for (int i=0; i<orbs.length; i++) {
-    for (int j=1+1; j<orbs.length; j++) {
-      float r2 = orbs[i].radius + orbs[j].radius;
-      float d = dist(orbs[i].loc.x, orbs[i].loc.y, orbs[j].loc.x, orbs[j].loc.y);
-      if (d < r2) {
-        if (d==0) { // avoid dist of 0
-          orbs[i].loc.add(new PVector(random(-.1, .1), random(-.1, .1)));
+    for (int j=i; j<orbs.length; j++) {
+      if (i!=j) {
+        float r2 = orbs[i].radius + orbs[j].radius;
+        float d = dist(orbs[i].loc.x, orbs[i].loc.y, orbs[j].loc.x, orbs[j].loc.y);
+        if (d < r2) {
+          if (d==0) { // avoid dist of 0
+            orbs[i].loc.add(new PVector(random(-.1, .1), random(-.1, .1)));
+          }
+          PVector axis = PVector.sub(orbs[i].loc, orbs[j].loc);
+          axis.normalize();
+          PVector temp = new PVector();
+          temp.set(orbs[i].loc);
+          orbs[i].loc.x = orbs[j].loc.x + axis.x*r2;
+          orbs[i].loc.y = orbs[j].loc.y + axis.y*r2;
+          orbs[j].loc.x = temp.x - axis.x*r2;
+          orbs[j].loc.y = temp.y - axis.y*r2;
         }
-        PVector axis = PVector.sub(orbs[i].loc, orbs[j].loc);
-        axis.normalize();
-        PVector temp = new PVector();
-        temp.set(orbs[i].loc);
-        orbs[i].loc.x = orbs[j].loc.x + axis.x*r2;
-        orbs[i].loc.y = orbs[j].loc.y + axis.y*r2;
-        orbs[j].loc.x = temp.x - axis.x*r2;
-        orbs[j].loc.y = temp.y - axis.y*r2;
       }
     }
   }
@@ -108,7 +110,7 @@ void draw() {
       textFont(font, 23);
       String s = "  Planet ID:  " + orbs[i].id + "       Composition:  " + orbs[i].composition +"       Mass: " + orbs[i].radius;
       float w = textWidth(s);
-      text(s, (width-w)/2, height-7);
+      text(s, (width-w)/2, height-25);
       // popMatrix();
     } else {
       noStroke();

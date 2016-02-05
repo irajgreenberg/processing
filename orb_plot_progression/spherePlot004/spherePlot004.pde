@@ -15,7 +15,7 @@ String[] comp;
 PFont font;
 
 void setup() {
-  size(700, 700, P3D);
+  size(700, 725, P3D);
   noStroke();
   ortho();
 
@@ -34,7 +34,7 @@ void setup() {
   color planetColor = #ff4433;
   for (int i=0; i<dataSize; i++) {
     // start all orbs in the middle
-    orbs[i] = new PVector(width/2, height/2);
+    orbs[i] = new PVector(width/2, height/2-25);
 
     JSONObject planet = planetsData.getJSONObject(i); 
 
@@ -80,20 +80,22 @@ void draw() {
   // orb-orb collision
   for (int i=0; i<orbs.length; i++) {
     for (int j=1+1; j<orbs.length; j++) {
-      float r2 =  radii[i] + radii[j];
-      float d = dist(orbs[i].x, orbs[i].y, orbs[j].x, orbs[j].y);
-      if (d < r2) {
-        if (d==0) { // avoid dist of 0
-          orbs[i].add(new PVector(random(-.1, .1), random(-.1, .1)));
+      if (i!=j) {
+        float r2 =  radii[i] + radii[j];
+        float d = dist(orbs[i].x, orbs[i].y, orbs[j].x, orbs[j].y);
+        if (d < r2) {
+          if (d==0) { // avoid dist of 0
+            orbs[i].add(new PVector(random(-.1, .1), random(-.1, .1)));
+          }
+          PVector axis = PVector.sub(orbs[i], orbs[j]);
+          axis.normalize();
+          PVector temp = new PVector();
+          temp.set(orbs[i]);
+          orbs[i].x = orbs[j].x + axis.x*r2;
+          orbs[i].y = orbs[j].y + axis.y*r2;
+          orbs[j].x = temp.x - axis.x*r2;
+          orbs[j].y = temp.y - axis.y*r2;
         }
-        PVector axis = PVector.sub(orbs[i], orbs[j]);
-        axis.normalize();
-        PVector temp = new PVector();
-        temp.set(orbs[i]);
-        orbs[i].x = orbs[j].x + axis.x*r2;
-        orbs[i].y = orbs[j].y + axis.y*r2;
-        orbs[j].x = temp.x - axis.x*r2;
-        orbs[j].y = temp.y - axis.y*r2;
       }
     }
   }
