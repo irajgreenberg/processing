@@ -1,17 +1,12 @@
 /*
-Sphere Plot - 3D Procedural plot
+Sphere Plot - 3D OOP
  planets JSON data
  interactive Feedback
  */
 
 JSONArray planetsData;
 
-PVector[] orbs;
-float[]radii;
-color[]cols, origCols;
-int[] ids;
-String[] comp;
-
+Planet[] orbs;
 PFont font;
 
 void setup() {
@@ -24,28 +19,13 @@ void setup() {
   planetsData =loadJSONArray("planets.json");
   // size arrays
   int dataSize = planetsData.size();
-  orbs = new PVector[dataSize];
-  radii = new float[dataSize];
-  cols = new color[dataSize]; 
-  origCols = new color[dataSize]; 
-  ids = new int[dataSize];
-  comp = new String[dataSize];
+  orbs = new Planet[dataSize];
 
   color planetColor = #ff4433;
+
   for (int i=0; i<dataSize; i++) {
-    // start all orbs in the middle
-    orbs[i] = new PVector(width/2, height/2);
-
     JSONObject planet = planetsData.getJSONObject(i); 
-
-    //radius based on mass
-    radii[i] = planet.getFloat("mass"); 
-
-    ids[i] = planet.getInt("id");
-
-    // color based on planet composition type
-    String planetType = comp[i] = planet.getString("composition");
-
+    String planetType = planet.getString("composition");
     if (planetType.equals("fire")) {
       planetColor = #ff4433;
     } else if (planetType.equals("stone")) {
@@ -63,8 +43,8 @@ void setup() {
     } else if (planetType.equals("salt")) {
       planetColor = #ffffff;
     }
-    cols[i] = planetColor;
-    origCols[i] = planetColor;
+
+    orbs[i] = new Planet(new PVector(width/2, height/2), planet.getFloat("mass"), planetColor, i, planetType);
   }
 }
 
@@ -80,59 +60,59 @@ void draw() {
   // orb-orb collision
   for (int i=0; i<orbs.length; i++) {
     for (int j=1+1; j<orbs.length; j++) {
-      float r2 =  radii[i] + radii[j];
-      float d = dist(orbs[i].x, orbs[i].y, orbs[j].x, orbs[j].y);
+      float r2 = orbs[i].radius + orbs[j].radius;
+      float d = dist(orbs[i].loc.x, orbs[i].loc.y, orbs[j].loc.x, orbs[j].loc.y);
       if (d < r2) {
         if (d==0) { // avoid dist of 0
-          orbs[i].add(new PVector(random(-.1, .1), random(-.1, .1)));
+          orbs[i].loc.add(new PVector(random(-.1, .1), random(-.1, .1)));
         }
-        PVector axis = PVector.sub(orbs[i], orbs[j]);
+        PVector axis = PVector.sub(orbs[i].loc, orbs[j].loc);
         axis.normalize();
         PVector temp = new PVector();
-        temp.set(orbs[i]);
-        orbs[i].x = orbs[j].x + axis.x*r2;
-        orbs[i].y = orbs[j].y + axis.y*r2;
-        orbs[j].x = temp.x - axis.x*r2;
-        orbs[j].y = temp.y - axis.y*r2;
+        temp.set(orbs[i].loc);
+        orbs[i].loc.x = orbs[j].loc.x + axis.x*r2;
+        orbs[i].loc.y = orbs[j].loc.y + axis.y*r2;
+        orbs[j].loc.x = temp.x - axis.x*r2;
+        orbs[j].loc.y = temp.y - axis.y*r2;
       }
     }
   }
 
 
   for (int i=0; i<orbs.length; i++) {
-    fill(cols[i]);
+    fill(orbs[i].col);
     pushMatrix();
-    translate(orbs[i].x, orbs[i].y, orbs[i].z);
-    sphere(radii[i]);
+    translate(orbs[i].loc.x, orbs[i].loc.y, orbs[i].loc.z);
+    sphere(orbs[i].radius);
     popMatrix();
 
     // boundary collison
-    if (orbs[i].x > width-radii[i]) {
-      orbs[i].x = width-radii[i];
-    } else if (orbs[i].x < radii[i]) {
-      orbs[i].x = radii[i];
+    if (orbs[i].loc.x > width-orbs[i].radius) {
+      orbs[i].loc.x = width-orbs[i].radius;
+    } else if (orbs[i].loc.x < orbs[i].radius) {
+      orbs[i].loc.x = orbs[i].radius;
     } 
 
-    if (orbs[i].y > height-radii[i]) {
-      orbs[i].y = height-radii[i];
-    } else if (orbs[i].y < radii[i]) {
-      orbs[i].y = radii[i];
+    if (orbs[i].loc.y > height-orbs[i].radius) {
+      orbs[i].loc.y = height-orbs[i].radius;
+    } else if (orbs[i].loc.y < orbs[i].radius) {
+      orbs[i].loc.y = orbs[i].radius;
     }
 
     // mouse detection
-    if (dist(mouseX, mouseY, orbs[i].x, orbs[i].y) < radii[i]) {
-      cols[i] = #ffff00;
+    if (orbs[i].isHit()) {
+      orbs[i].col = #ffff00;
 
-      //   pushMatrix();
+      // pushMatrix();
       fill(85);
       textFont(font, 23);
-      String s = "  Planet ID:  " + ids[i] + "       Composition:  " + comp[i] +"       Mass: " + radii[i];
+      String s = "  Planet ID:  " + orbs[i].id + "       Composition:  " + orbs[i].composition +"       Mass: " + orbs[i].radius;
       float w = textWidth(s);
       text(s, (width-w)/2, height-7);
       // popMatrix();
     } else {
       noStroke();
-      cols[i] = origCols[i];
+      orbs[i].resetCol();
     }
   }
 }
