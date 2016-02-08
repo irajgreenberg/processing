@@ -23,7 +23,7 @@ public class Planet {
     this.composition = composition;
     textureURL = composition+".jpg";
 
-    s = new IJGSphere(this.p, new RGBA(120, 120, 120, 255), "stone2.jpg", radius, 16, 16);
+    s = new IJGSphere(this.p, new RGBA(120, 120, 120, 255), textureURL, radius, 16, 16);
     
     // enable vertex normals for smoohing
     s.setSmooth(true);

@@ -38,8 +38,8 @@ public class IJGSphere extends Geom3 {
         // sweep arc around y-axis
         float pz = p.cos(phi)*z - p.sin(phi)*x;
         float px = p.sin(phi)*z + p.cos(phi)*x;
-        float u = (float)((phi+1.0))*.75f;
-        float v = (float)((theta+1.0))*.75f;
+        float u = (float)((phi+1.0))*.25f;
+        float v = (float)((theta+1.0))*.25f;
         verts.add(new Vertex(new PVector(px, y, pz), new PVector(), col, new UV(u, v)));
         phi += p.TWO_PI/(slices-1); // make sure texture seams join up.
       }

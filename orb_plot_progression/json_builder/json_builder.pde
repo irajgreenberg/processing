@@ -1,8 +1,8 @@
 int PlanetCount = 400;
-float planetMassMin = 4;
-float planetMassMax = 15;
-//String[] composition = {"fire", "stone", "ice", "water", "lava", "gas", "metal", "salt"};
-String[] composition = {"stone"};
+float planetMassMin = 12;
+float planetMassMax = 30;
+String[] composition = {"fire", "stone", "ice", "water", "lava", "gas", "metal", "salt"};
+//String[] composition = {"stone"};
 
 JSONArray values;
 

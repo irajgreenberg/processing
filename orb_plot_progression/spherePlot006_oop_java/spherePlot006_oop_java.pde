@@ -9,10 +9,9 @@ JSONArray planetsData;
 Planet[] orbs;
 PFont font;
 
-IJGSphere s;
 
 void setup() {
-  size(700, 700, P3D);
+  size(1000, 1000, P3D);
   noStroke();
   ortho();
 
@@ -22,31 +21,9 @@ void setup() {
   // size arrays
   int dataSize = planetsData.size();
   orbs = new Planet[dataSize];
-  //s = new IJGSphere(this, new RGBA(255, 120, 120, 255), "stone.jpg", 180, 16, 16);
-
-  //Color planetColor = new Color(255, 50, 50);
 
   for (int i=0; i<dataSize; i++) {
     JSONObject planet = planetsData.getJSONObject(i); 
-    String planetType = planet.getString("composition");
-    //if (planetType.equals("fire")) {
-    //  planetColor.rgb = #ff4433;
-    //} else if (planetType.equals("stone")) {
-    //  planetColor.rgb = #334422;
-    //} else if (planetType.equals("ice")) {
-    //  planetColor.rgb = #eeeeff;
-    //} else if (planetType.equals("water")) {
-    //  planetColor.rgb = #3399bb;
-    //} else if (planetType.equals("lava")) {
-    //  planetColor.rgb = #ff9922;
-    //} else if (planetType.equals("gas")) {
-    //  planetColor.rgb = #aa55cc;
-    //} else if (planetType.equals("metal")) {
-    //  planetColor.rgb = #999999;
-    //} else if (planetType.equals("salt")) {
-    //  planetColor.rgb = #ffffff;
-    //}
-
     orbs[i] = new Planet(this, new PVector(width/2, height/2), planet.getFloat("mass"), i, planet.getString("composition"));
   }
 }
@@ -60,7 +37,6 @@ void draw() {
   pointLight(150, 150, 150, -100, 100, 800);
   specular(255, 255, 255);
   shininess(20);
- // s.display();
   // orb-orb collision
   for (int i=0; i<orbs.length; i++) {
     for (int j=1+1; j<orbs.length; j++) {
@@ -84,10 +60,8 @@ void draw() {
 
 
   for (int i=0; i<orbs.length; i++) {
-    //fill(orbs[i].getCol());
     pushMatrix();
     translate(orbs[i].loc.x, orbs[i].loc.y, orbs[i].loc.z);
-    //sphere(orbs[i].radius);
     orbs[i].display();
     popMatrix();
 
