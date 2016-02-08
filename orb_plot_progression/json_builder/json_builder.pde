@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 int PlanetCount = 400;
-=======
-int PlanetCount = 800;
->>>>>>> 645ace48eb4dded882123abf781cb0dcd7a0a4e7
 float planetMassMin = 4;
 float planetMassMax = 15;
 //String[] composition = {"fire", "stone", "ice", "water", "lava", "gas", "metal", "salt"};
