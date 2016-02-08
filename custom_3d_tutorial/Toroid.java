@@ -19,10 +19,10 @@ public class Toroid extends Geom3 {
     this.ringDetail = ringDetail;
 
     _init();
-    
   }
 
   public void _init() {
+    // note: Geometry technically not closed
     verts = new ArrayList<Vertex>();
     inds = new ArrayList<Index>();
     faces = new ArrayList<Face>();
@@ -50,15 +50,15 @@ public class Toroid extends Geom3 {
     // indices
     for (int i=0; i<ringDetail; i++) {
       for (int j=0; j<outerDetail; j++) {
-        int k0 = i*outerDetail + j;
-        int k1 = (i+1)*outerDetail + j;
-        int k2 = (i+1)*outerDetail + j+1;
-        int k3 = i*outerDetail + j+1;
+        int k = i*outerDetail + j;
+        int l = (i+1)*outerDetail + j;
+        int m = (i+1)*outerDetail + j+1;
+        int n = i*outerDetail + j+1;
         if (i<ringDetail-1 && j<outerDetail-1) {
           // tri 1
-          inds.add(new Index(k0, k1, k2));
+          inds.add(new Index(k, l, m));
           // tri 2
-          inds.add(new Index(k0, k2, k3));
+          inds.add(new Index(k, m, n));
         }
       }
     }
@@ -67,8 +67,7 @@ public class Toroid extends Geom3 {
     for (Index i : inds) {
       faces.add(new Face(verts.get(i.elem0), verts.get(i.elem1), verts.get(i.elem2)));
     }
-    
+
     calcVertNorms();
   }
-  
 }
