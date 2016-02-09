@@ -1,5 +1,5 @@
 /*
-Sphere Plot - 3D OOP
+ Sphere Plot - 3D OOP
  planets JSON data
  interactive Feedback
  */
@@ -27,7 +27,7 @@ void setup() {
   for (int i=0; i<dataSize; i++) {
     plotRadii += PI*planetsData.getJSONObject(i).getFloat("mass")*planetsData.getJSONObject(i).getFloat("mass");
   }
-  float canvasArea = PI*(width/2.875)*(width/2.875);
+  float canvasArea = PI*(width/2.6)*(width/2.6);
   sclFactor = sqrt(canvasArea/plotRadii);
   println(sclFactor);
 

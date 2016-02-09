@@ -1,4 +1,4 @@
-int PlanetCount = 200;
+int PlanetCount = 300;
 float planetMassMin = 12;
 float planetMassMax = 30;
 String[] composition = {"fire", "stone", "ice", "water", "lava", "gas", "metal", "salt"};
