@@ -5,6 +5,9 @@ public class IJGSphere extends Geom3 {
 
   private float radius;
   private int slices, stacks;
+  
+  private ArrayList<VerletBall> balls;
+  private ArrayList<VerletStick> sticks;
 
   public IJGSphere() {
   }
@@ -25,6 +28,10 @@ public class IJGSphere extends Geom3 {
     verts = new ArrayList<Vertex>();
     inds = new ArrayList<Index>();
     faces = new ArrayList<Face>();
+    
+    balls = new ArrayList<VerletBall>();
+    sticks = ArrayList<VerletStick>();
+    
 
     // verts
     float theta = -p.PI/2.0f; // start at pole
@@ -41,6 +48,8 @@ public class IJGSphere extends Geom3 {
         float u = (float)((phi+1.0))*.25f;
         float v = (float)((theta+1.0))*.25f;
         verts.add(new Vertex(new PVector(px, y, pz), new PVector(), col, new UV(u, v)));
+        //PVector pos,  PVector push, float radius
+        balls.add(new VerletBall(verts.get(i)));
         phi += p.TWO_PI/(slices-1); // make sure texture seams join up.
       }
       theta += p.PI/(stacks-1);
