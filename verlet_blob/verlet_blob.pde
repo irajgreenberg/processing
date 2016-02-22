@@ -4,53 +4,55 @@
  * alternative to  x += speed
  */
 
-int particles = 200;
-VerletBall[] balls = new VerletBall[particles];
+int particles = 20;
+VerletNode[] nodes = new VerletNode[particles];
 
 int bonds = particles + particles/2;
-VerletStick[] sticks = new VerletStick[bonds];
+ArrayList<VerletStick>sticks = new ArrayList<VerletStick>();
 
 void setup() {
   size(900, 900);
   float theta = PI/4.0;
-  float shapeR = 280;
+  float shapeR = 340;
   float tension = .8;
   // balls
   for (int i=0; i<particles; i++) {
     PVector push = new PVector(1+random(1.6), .2);
     PVector p = new PVector(cos(theta)*shapeR, sin(theta)*shapeR);
-    balls[i] = new VerletBall(p, push, 2);
+    nodes[i] = new VerletNode(p,.2);
     theta += TWO_PI/particles;
   }
 
   // sticks
   for (int i=0; i<particles; i++) {
     if (i>0) {
-      sticks[i-1] = new VerletStick(balls[i-1], balls[i], tension);
+      sticks.add(new VerletStick(nodes[i-1], nodes[i], tension, true));
     } 
     if (i==particles-1) {
-      sticks[i] = new VerletStick(balls[i], balls[0], tension);
+      sticks.add(new VerletStick(nodes[i], nodes[0], tension, true));
     }
   }
 
   // internal sticks for stability
   for (int i=particles; i<bonds; i++) {
-    sticks[i] = new VerletStick(balls[i-particles], balls[i-particles/2], tension);
+    if (i%5==0) {
+      sticks.add(new VerletStick(nodes[i-particles], nodes[i-particles/2], tension, true));
+    }
   }
 }
 
 void draw() {
-  fill(255, 5);
+  fill(255, 35);
   rect(-1, -1, width+1, height+1);
   translate(width/2, height/2);
-  for (int i=0; i<bonds; i++) {
-    sticks[i].render();
-    sticks[i].constrainLen();
+  for (int i=0; i<sticks.size(); i++) {
+    sticks.get(i).render();
+    sticks.get(i).constrainLen();
   }
 
   for (int i=0; i<particles; i++) {
-    balls[i].verlet();
-    balls[i].render();
-    balls[i].boundsCollision();
+    nodes[i].verlet();
+    nodes[i].render();
+    nodes[i].boundsCollision();
   }
 }
