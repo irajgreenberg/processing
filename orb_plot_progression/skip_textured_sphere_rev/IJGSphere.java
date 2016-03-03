@@ -28,7 +28,7 @@ public class IJGSphere extends Geom3 {
 
     // verts
     float theta = -p.PI/2.0f; // start at pole
-    for (int i=0, k=0; i<stacks; i++) {
+    for (int i=0; i<stacks; i++) {
       float phi = 0.0f;
       // initial arc around z-axis
       float x = p.cos(theta)*radius;
@@ -38,9 +38,9 @@ public class IJGSphere extends Geom3 {
         // sweep arc around y-axis
         float pz = p.cos(phi)*z - p.sin(phi)*x;
         float px = p.sin(phi)*z + p.cos(phi)*x;
-        float u = (float)((phi+1.0))*.25f;
-        float v = (float)((theta+1.0))*.25f;
-        verts.add(new Vertex(new PVector(px, y, pz), new PVector(), col, new UV(u, v)));
+        float u = (float)((phi+1.0))*.65f;
+        float v = (float)((theta+1.0))*.65f;
+        verts.add(new Vertex(new PVector(px, y, pz), new PVector(), col, new UV(v, u)));
         phi += p.TWO_PI/(slices-1); // make sure texture seams join up.
       }
       theta += p.PI/(stacks-1);
@@ -48,15 +48,21 @@ public class IJGSphere extends Geom3 {
 
     // indices
     for (int i=0; i<stacks-1; i++) {
-      for (int j=0; j<slices; j++) {
+      for (int j=0; j<slices-1; j++) {
         int k = i*slices+j;
         int l = (i+1)*slices+j;
         int m = (i+1)*slices+j+1;
         int n = i*slices+j+1;
-        if (j<slices-1) {
-          inds.add(new Index(k, l, m));
-          inds.add(new Index(k, m, n));
-        }
+        inds.add(new Index(k, l, m));
+        inds.add(new Index(k, m, n));
+
+        //if (j==0) {
+        //  inds.add(new Index(m, l, k));
+        //  inds.add(new Index(n, m, k));
+        //} else {
+        //  inds.add(new Index(k, l, m));
+        //  inds.add(new Index(k, m, n));
+        //}
       }
     }
 

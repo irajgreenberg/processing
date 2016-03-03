@@ -25,13 +25,13 @@ void setup() {
 }
 void draw() {
   background(0);
-  ambientLight(85, 85, 85);
-  emissive(30, 0, 0);
+  ambientLight(30, 30, 30);
+  emissive(23, 0, 0);
   lightSpecular(255, 255, 255);
   pointLight(255, 255, 255, -100, -100, 800);
   pointLight(150, 150, 150, -100, 100, 800);
-  specular(255, 255, 255);
-  shininess(20);
+  specular(0, 255, 255);
+  shininess(30);
 
   pushMatrix();
   translate(width/2, height/2, -1000);

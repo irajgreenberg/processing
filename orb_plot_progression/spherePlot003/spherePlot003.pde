@@ -1,5 +1,5 @@
 /*
-Sphere Plot 002 - 3D Procedural plot
+Sphere Plot 003 - 3D Procedural plot
  planets JSON data
  */
 

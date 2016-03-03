@@ -2,8 +2,9 @@ IJGSphere s;
 
 void setup(){
   size(800, 800, P3D);
-   s = new IJGSphere(this, new RGBA(120, 120, 120, 255), "stone.jpg", 180, 16, 16);
+   s = new IJGSphere(this, new RGBA(120, 120, 120, 255), "stone.jpg", 240, 12,12);
    noStroke();
+  //stroke(255);
 }
 
 
@@ -21,13 +22,14 @@ void draw() {
   translate(width/2, height/2, -1000);
   rotateX(PI/3);
   rotateZ(frameCount*PI/1360);
-  scale(1.2, 1.2);
+  scale(20.2, 20.2);
+ // p.display();
   popMatrix();
 
   pushMatrix();
   translate(width/2, height/2.75, 0);
-  rotateY(frameCount*PI/520);
-  rotateX(-frameCount*PI/720);
+ // rotateY(frameCount*PI/520);
+  rotateX(-PI/2);
   s.display();
   popMatrix();
 }

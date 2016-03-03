@@ -33,9 +33,9 @@ public abstract class Geom3 {
       PVector vn = new PVector();
       for (Face f : faces) {
         // test by address
-        //if (v.pos == f.v0.pos || v.pos == f.v1.pos || v.pos == f.v2.pos) {
+        if (v.pos == f.v0.pos || v.pos == f.v1.pos || v.pos == f.v2.pos) {
         // test by position
-        if (v.pos.dist(f.v0.pos)<1 || v.pos.dist(f.v1.pos)<1 || v.pos.dist(f.v2.pos)<1) {
+       // if (v.pos.dist(f.v0.pos)<1 || v.pos.dist(f.v1.pos)<1 || v.pos.dist(f.v2.pos)<1) {
           vn.add(f.getNorm());
         }
       }
