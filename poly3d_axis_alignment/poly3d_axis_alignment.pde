@@ -26,9 +26,11 @@ void draw() {
   endShape(CLOSE);
   popMatrix();
 
-  // align poly with axis
+  // Align poly with axis
   // Step I. calculate local coordinate system as transformed orthogonal basis axes
   // A. use 3 corner vecs to calculate 2 axes (note:, NOT necessarily at right angles)
+  
+  // 2nd subtracted from first
   PVector locX = PVector.sub(vs[3], vs[0]);
   PVector tempY = PVector.sub(vs[1], vs[0]);
   PVector norm = locX.cross(tempY);
@@ -43,9 +45,11 @@ void draw() {
 
   translate(width - width/4, height/2);
   //rotateY(frameCount*PI/180);
-  line(vs[0].x, vs[0].y, vs[0].z, vs[0].x + locX.x*100, vs[0].y + locX.y*100, vs[0].z + locX.z*100);
-  line(vs[0].x, vs[0].y, vs[0].z, vs[0].x + locY.x*100, vs[0].y + locY.y*100, vs[0].z + locY.z*100);
-  line(vs[0].x, vs[0].y, vs[0].z, vs[0].x + norm.x*100, vs[0].y + norm.y*100, vs[0].z + norm.z*100);
+  
+  // draw basis
+  //line(vs[0].x, vs[0].y, vs[0].z, vs[0].x + locX.x*100, vs[0].y + locX.y*100, vs[0].z + locX.z*100);
+  //line(vs[0].x, vs[0].y, vs[0].z, vs[0].x + locY.x*100, vs[0].y + locY.y*100, vs[0].z + locY.z*100);
+  //line(vs[0].x, vs[0].y, vs[0].z, vs[0].x + norm.x*100, vs[0].y + norm.y*100, vs[0].z + norm.z*100);
 
   //local_coords = [(dot(p - loc0, locx),  # local X coordinate
   //                 dot(p - loc0, locy))  # local Y coordinate
@@ -54,14 +58,16 @@ void draw() {
   beginShape();
   for (int i=0; i<pts; i++) {
     PVector p = new PVector(vs[i].x, vs[i].y, vs[i].z);
-    float x = p.sub(vs[0]).dot(locX);
-    float y = p.sub(vs[0]).dot(locY);
+    PVector p2 = PVector.sub(vs[i], p);
+    float x = p2.dot(locX);
+    float y = p2.dot(locY);
     
-    p.set(vs[0]);
-    p.add(locX.mult(x).add(locY.mult(y)));
+    //p.set(vs[0]);
+    //p.add(locX.mult(x).add(locY.mult(y)));
     
     
-    vertex(p.x, p.y, vs[i].z);
+    //vertex(p.x, p.y, vs[i].z);
+    vertex(x, y, vs[i].z);
   }
   endShape(CLOSE);
 }
