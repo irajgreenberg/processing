@@ -1,5 +1,5 @@
 Poly p;
-int partCount = 100;
+int partCount = 200;
 Particle[] particles = new Particle[partCount];
 
 void setup() {
@@ -10,29 +10,57 @@ void setup() {
   PVector[] vecs = new PVector[ptCount];
   for (int i=0; i<vecs.length; i++) {
     r = random(195, 255);
-    vecs[i] = new PVector(cos(theta)*r, sin(theta)*r, 0);
+
+    // rotate points
+    float ry = 135*PI/680;
+    float rx = -65*PI/580;
+
+    // around z-axis
+    float x = cos(theta)*r;
+    float y = sin(theta)*r;
+    float z = 0;
+
+    // y-axis
+    float _z = cos(ry)*z-sin(ry)*x;
+    float _x = sin(ry)*z+cos(ry)*x;
+    float _y = y;
+
+    // x-axis
+    y = cos(rx)*_y-sin(rx)*_z;
+    z = sin(rx)*_y+cos(rx)*_z;
+    x = _x;
+
+    vecs[i] = new PVector(x, y, z);
     theta += TWO_PI/ptCount;
   }
   p = new Poly(vecs);
-
+  float boost = 1.5;
   for (int i=0; i<particles.length; i++) {
-    particles[i] = new Particle(new PVector(width, height, 400), 
-      new PVector(random(-7.2, -4.45), random(-4.85, -4.15), random(-1.84, -1.75)));
+    particles[i] = new Particle(new PVector(width/2, height/2, 200), 
+    new PVector(random(-17.2*boost, -4.45*boost), random(-4.85*boost, -4.15*boost), random(-1.84*boost, -1.75*boost)));
   }
 }
 
 void draw() {
   background(255);
   fill(200, 200, 175);
-  translate(width/2, height/2);
-  //rotateY(frameCount*PI/680);
-  //rotateX(-frameCount*PI/580);
-  rotateY(135*PI/680);
-  rotateX(-65*PI/580);
+  translate(width/2, height/2, -500);
   p.draw(true);
 
   for (int i=0; i<particles.length; i++) {
     particles[i].move();
     particles[i].draw();
+    checkCollision( particles[i]);
   }
 }
+
+void checkCollision(Particle pt) {
+  PVector r = new PVector();
+  r.set(pt.loc);
+  r.normalize();
+
+  if (p.norm().dot(r) < 0) {
+    pt.spd.mult(0);
+  }
+}
+

@@ -113,7 +113,7 @@ void setup() {
   ptCount = 5000;
   for (int i=0; i<=ptCount; i++) {
     float r = min(i*.35, 185);
-    r = random(220, 250);
+    r = random(200, 275);
     //r = 250;
     float x = sin(theta) * (r);
     float y = 0;
@@ -150,6 +150,7 @@ void setup() {
 
 void draw() {
   background(0);
+  lights();
   noFill();
   strokeWeight(1.25);
   stroke(255, 145);
@@ -231,7 +232,7 @@ void draw() {
 
 
   // Orange noise
-  strokeWeight(8.75);
+  strokeWeight(4.75);
   noFill();
   stroke(30, 200, 200, 55);
   beginShape();
@@ -255,7 +256,17 @@ void draw() {
   }
 
 
-  // asteroid belt
+  // white asteroid belt
+  strokeWeight(.5);
+  noFill();
+  stroke(100, 90, 255, 215);
+  beginShape();
+  for (int i=0; i<counter5; i++) {
+    if(i%4==0)
+    curveVertex(asteroidBeltVecs.get(i).x, asteroidBeltVecs.get(i).y, asteroidBeltVecs.get(i).z);
+  }
+  endShape();
+
   sphereDetail(2);
   fill(230, 255, 230, 215);
   noStroke();
@@ -285,3 +296,4 @@ void draw() {
     counter6+=rate6;
   }
 }
+

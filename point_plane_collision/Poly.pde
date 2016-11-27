@@ -21,9 +21,11 @@ class Poly {
 
   PVector norm() {
     PVector n = edge1.cross(edge2);
-    return n.normalize();
+    n.normalize();
+    return n;
   }
 
+ 
   void draw() {
     beginShape();
     for (int i=0; i<vecs.length; i++) {
