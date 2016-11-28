@@ -3,23 +3,23 @@ float phi = 0;
 
 int ptCount = 300;
 float counter1 = 0;
-float rate1 = 3.15;
+float rate1 = 3.95;
 
 float counter2 = 0;
-float rate2 = 2.125;
+float rate2 = 5.55;
 
 float counter3 = 0;
-float rate3 = 7.125;
+float rate3 = 5.125;
 
 float counter4 = 0;
-float rate4 = 2.125;
+float rate4 = 5.125;
 
 float counter5 = 0;
-float rate5 = 5.125;
+float rate5 = 6.125;
 
 //Red Core
 float counter6 = 0;
-float rate6 = 6.125;
+float rate6 = 5.125;
 
 ArrayList<PVector> vecs = new ArrayList<PVector>();
 ArrayList<PVector> bandVecs = new ArrayList<PVector>();
@@ -32,7 +32,8 @@ ArrayList<PVector> coreVecs = new ArrayList<PVector>();
 ArrayList<PVector> allVecs = new ArrayList<PVector>();
 
 void setup() {
-  size(2000, 1600, P3D);
+ // size(2000, 1600, P3D);
+  size(1920, 1080, P3D);
 
   sphereDetail(6);
 
@@ -154,7 +155,7 @@ void draw() {
   noFill();
   strokeWeight(1.25);
   stroke(255, 145);
-  translate(width/2, height/2, 795);
+  translate(width/2, height/2, 335);
   rotateY(frameCount*PI/540.0);
   rotateX(frameCount*PI/720);
   //strokeWeight(frameCount); 
@@ -202,7 +203,7 @@ void draw() {
     popMatrix();
   }
 
-  if (counter2 < bandVecs.size() - rate2) {
+  if (counter1>vecs.size()-rate1 && counter2 < bandVecs.size() - rate2) {
     counter2+=rate2;
   }
 
@@ -226,7 +227,7 @@ void draw() {
     popMatrix();
   }
 
-  if (counter3 < middleEarthVecs.size() - rate3) {
+  if (counter2 > bandVecs.size()-rate2 && counter3 < middleEarthVecs.size() - rate3) {
     counter3+=rate3;
   }
 
@@ -251,7 +252,7 @@ void draw() {
     popMatrix();
   }
 
-  if (counter4 < noiseVecs.size() - rate4) {
+  if (counter3 > middleEarthVecs.size()-counter3 && counter4 < noiseVecs.size() - rate4) {
     counter4+=rate4;
   }
 
@@ -259,7 +260,7 @@ void draw() {
   // white asteroid belt
   strokeWeight(.5);
   noFill();
-  stroke(100, 90, 255, 215);
+  stroke(160, 90, 255, 215);
   beginShape();
   for (int i=0; i<counter5; i++) {
     if(i%4==0)
@@ -277,7 +278,7 @@ void draw() {
     popMatrix();
   }
 
-  if (counter5 < asteroidBeltVecs.size() - rate5) {
+  if (counter4 > noiseVecs.size()-rate4 && counter5 < asteroidBeltVecs.size() - rate5) {
     counter5+=rate5;
   }
 
@@ -292,8 +293,11 @@ void draw() {
     popMatrix();
   }
 
-  if (counter6 < coreVecs.size() - rate6) {
+  if (counter5 > noiseVecs.size()-rate5 && counter6 < coreVecs.size() - rate6) {
     counter6+=rate6;
   }
 }
 
+void mousePressed(){
+  saveFrame();
+}
