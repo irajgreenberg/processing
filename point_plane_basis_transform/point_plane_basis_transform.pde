@@ -3,26 +3,33 @@
 https://www.cs.helsinki.fi/group/goa/mallinnus/3dtransf/3drota.htm
 */
 
-Quad q;
+//Quad q;
+
+Plane p;
 
 void setup() {
   size(800, 800, P3D);
-  PVector[] verts = new PVector[4];
-  float w = 200;
-  float h = 150;
-  float d = 0;
-  float theta = PI/4;
-  for (int i=0; i<4; i++) {
-    verts[i] = new PVector(cos(theta)*w, sin(theta)*h, d);
-    theta += TWO_PI/4;
-  }
-  q = new Quad(verts);
+  //PVector[] verts = new PVector[4];
+  //float w = 200;
+  //float h = 150;
+  //float d = 0;
+  //float theta = PI/4;
+  //for (int i=0; i<4; i++) {
+  //  verts[i] = new PVector(cos(theta)*w, sin(theta)*h, d);
+  //  theta += TWO_PI/4;
+  //}
+  //q = new Quad(verts);
+  //Plane(PVector loc, PVector dim, int colSegs, int  rowSegs)
+  stroke(8);
+  p = new Plane(new PVector(), new PVector(500, 0, 700), 20, 20);
 }
 
 
 void draw() {
   background(255);
   translate(width/2, height/2);
-  q.draw();
-  q.drawNormal(30);
+  rotateX(PI/2);
+  //q.draw();
+  //q.drawNormal(30);
+  p.draw();
 }
