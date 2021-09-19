@@ -1,11 +1,12 @@
 /*
 3D transformations
-https://www.cs.helsinki.fi/group/goa/mallinnus/3dtransf/3drota.htm
-*/
+ https://www.cs.helsinki.fi/group/goa/mallinnus/3dtransf/3drota.htm
+ */
 
 //Quad q;
 
 Plane p;
+Engine e;
 
 void setup() {
   size(800, 800, P3D);
@@ -22,14 +23,21 @@ void setup() {
   //Plane(PVector loc, PVector dim, int colSegs, int  rowSegs)
   stroke(8);
   p = new Plane(new PVector(), new PVector(500, 0, 700), 20, 20);
+  e = new Engine(p);
+  
+  frameRate(1);
 }
 
 
 void draw() {
   background(255);
-  translate(width/2, height/2);
-  rotateX(PI/2);
+  lights();
+  translate(width/2, height/1.5);
+ // rotateY(frameCount*PI/180);
+ // rotateX(PI/-30);
   //q.draw();
   //q.drawNormal(30);
-  p.draw();
+  // p.draw();
+  e.collide();
+  e.draw();
 }

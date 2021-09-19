@@ -20,6 +20,7 @@ class Quad {
     }
     return u.div(4);
   }
+  
 
   void draw() {
     beginShape();
@@ -33,6 +34,7 @@ class Quad {
     beginShape();
     PVector n = getNormal();
     PVector c = getCentroid();
+    n.normalize();
     line(c.x, c.y, c.z, c.x + n.x*len, c.y + n.y*len, c.z+n.z*len);
     endShape();
   }
