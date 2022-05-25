@@ -10,10 +10,14 @@ VerletNode[] nodes = new VerletNode[particles];
 int bonds = particles + particles/2;
 ArrayList<VerletStick>sticks = new ArrayList<VerletStick>();
 
+VerletOrg org;
+
 void setup() {
-  size(900, 900);
+  size(900, 900, P3D);
+  
+  org = new VerletOrg(1, 200, color(200, 100, 15), color(1, 100, 200), true);
   float theta = PI/4.0;
-  float shapeR = 340;
+  float shapeR = 100;
   float tension = .8;
   // balls
   for (int i=0; i<particles; i++) {
@@ -35,16 +39,21 @@ void setup() {
 
   // internal sticks for stability
   for (int i=particles; i<bonds; i++) {
-    if (i%5==0) {
+    if (i%2==0) {
       sticks.add(new VerletStick(nodes[i-particles], nodes[i-particles/2], tension, true));
     }
   }
 }
 
 void draw() {
-  fill(255, 35);
-  rect(-1, -1, width+1, height+1);
+  background(255);
+  //fill(255, 10);
+  //rect(-1, -1, width+1, height+1);
+  
+  org.draw();
+  strokeWeight(2);
   translate(width/2, height/2);
+  stroke(0);
   for (int i=0; i<sticks.size(); i++) {
     sticks.get(i).render();
     sticks.get(i).constrainLen();

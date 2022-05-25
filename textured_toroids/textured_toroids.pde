@@ -48,7 +48,7 @@ void draw() {
   pointLight(255, 255, 255, -100, -100, 800);
   pointLight(150, 150, 150, -100, 100, 800);
   specular(255, 255, 255);
-  shininess(20);
+  shininess(200);
 
   pushMatrix();
   translate(width/2, height/2, -1000);

@@ -14,7 +14,7 @@ class VerletOrg {
     this.fillCol = fillCol;
     this.strokeCol = strokeCol;
     this.isSupportVisible = isSupportVisible;
-    
+
     nodes = new VerletNode[nodeCount];
     sticks = new ArrayList<VerletStick>();
     bonds = nodeCount + nodeCount/2;
@@ -26,20 +26,16 @@ class VerletOrg {
   }
 
 
-  void display() {
+  void draw() {
     for (int i=0; i<sticks.size(); i++) {
-    sticks.get(i).render();
-    sticks.get(i).constrainLen();
-  }
+      sticks.get(i).render();
+      sticks.get(i).constrainLen();
+    }
 
-  for (int i=0; i<particles; i++) {
-    nodes[i].verlet();
-    nodes[i].render();
-    nodes[i].boundsCollision();
-  }
-  }
-
-
-  void verlet() {
+    for (int i=0; i<particles; i++) {
+      nodes[i].verlet();
+      nodes[i].render();
+      nodes[i].boundsCollision();
+    }
   }
 }

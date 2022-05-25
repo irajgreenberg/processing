@@ -81,7 +81,7 @@ void draw() {
   pointLight(255, 255, 255, -10, -10, 100);
   pointLight(150, 150, 150, 0, 100, 800);
   specular(255, 255, 255);
-  shininess(65);
+  shininess(25);
 
   translate(width/2, height/2);
   rotateY(frameCount*PI/780);
